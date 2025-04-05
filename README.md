@@ -46,10 +46,10 @@ python zenodo.py download 13960343 ./downloads
 ```
 
 -  to upload
-  -  make sure you have an account in Zenodo, you need to add your API token to the .env file
+   -  make sure you have an account in Zenodo, you need to add your API token to the .env file
     explained in the How to set up section above
-  -  most efficient way is to store your dataset in a zip file
-  -  then use the command
+   -  most efficient way is to store your dataset in a zip file
+   -  then use the command
     ```python zenodo.py upload [_file name_.zip --title "_title of your dataset on zenodo_"```
       -   Ex:
 ```
