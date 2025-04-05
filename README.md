@@ -15,7 +15,7 @@
 ## Usage
 - to search:
   - use the command
-     ```python zenodo.py search [____keywords you want to search by____]```
+     ```python zenodo.py search _keywords you want to search by_```
     -  Ex: ```python zenodo.py search climate```
    
   - you can search via multiple keywords
@@ -27,7 +27,7 @@
           -  Ex: if the URL is https://zenodo.org/record/13960343, then the id is 13960343
               -  the URL is produced when using search command
   -  use the command
-  ```python zenodo.py download [____database id____] [_____optional: directory you want to download to_____]```
+  ```python zenodo.py download _database id_ _optional: directory you want to download to_```
   -  if directory doesn't exists then it will create one
   -  Ex: ```python zenodo.py download 123456 ./downloads```
 
@@ -36,4 +36,4 @@
     explained in the How to set up section above
   -  most efficient way is to store your dataset in a zip file
   -  then use the command
-    ```python zenodo.py upload [___file name___].zip --title "[___title of your dataset on zenodo___]"```
+    ```python zenodo.py upload [_file name_.zip --title "_title of your dataset on zenodo_"```
