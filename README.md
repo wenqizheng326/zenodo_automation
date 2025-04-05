@@ -20,7 +20,7 @@ git@github.com:wenqizheng326/zenodo_automation.git
 ## Usage
 - to search:
   - use the command
-     ```python zenodo.py search _keywords you want to search by_```
+     ```python zenodo.py search <keywords you want to search by>```
     -  Ex:
 ```
 python zenodo.py search climate
@@ -38,7 +38,7 @@ python zenodo.py search "machine learning" biology
           -  Ex: if the URL is https://zenodo.org/record/13960343, then the id is 13960343
               -  the URL is produced when using search command
   -  use the command
-  ```python zenodo.py download _database id_ _optional: directory you want to download to_```
+  ```python zenodo.py download <database id> <optional: directory you want to download to>```
   -  if directory doesn't exists then it will create one
   -  Ex:
 ```
@@ -50,7 +50,7 @@ python zenodo.py download 13960343 ./downloads
     explained in the How to set up section above
    -  most efficient way is to store your dataset in a zip file
    -  then use the command
-    ```python zenodo.py upload [_file name_.zip --title "_title of your dataset on zenodo_"```
+    ```python zenodo.py upload <file name>.zip --title "<title of your dataset on zenodo>"```
       -   Ex:
 ```
 python zenodo.py upload dataset.zip --title "My Dataset"
