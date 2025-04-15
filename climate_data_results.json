@@ -1,0 +1,3500 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "created": "2024-11-05T15:11:37.574912+00:00",
+        "modified": "2024-11-05T15:11:38.003913+00:00",
+        "id": 14041129,
+        "conceptrecid": "11471117",
+        "doi": "10.5281/zenodo.14041129",
+        "conceptdoi": "10.5281/zenodo.11471117",
+        "doi_url": "https://doi.org/10.5281/zenodo.14041129",
+        "metadata": {
+          "title": "DDF_test_data",
+          "doi": "10.5281/zenodo.14041129",
+          "publication_date": "2024-11-05",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Hartick, Carl",
+              "affiliation": null
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.1002/qj.3803",
+              "relation": "isDerivedFrom",
+              "scheme": "doi"
+            }
+          ],
+          "dates": [
+            {
+              "type": "other"
+            }
+          ],
+          "references": [
+            "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horányi, A., Muñoz‐Sabater, J., ... & Thépaut, J. N. (2020). The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999-2049."
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "alternate_identifiers": [
+            {
+              "identifier": "Climate Test Data"
+            }
+          ],
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 2,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "11471117"
+                }
+              }
+            ]
+          }
+        },
+        "title": "DDF_test_data",
+        "links": {
+          "self": "https://zenodo.org/api/records/14041129",
+          "self_html": "https://zenodo.org/records/14041129",
+          "preview_html": "https://zenodo.org/records/14041129?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.14041129",
+          "self_doi": "https://doi.org/10.5281/zenodo.14041129",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14041129",
+          "parent": "https://zenodo.org/api/records/11471117",
+          "parent_html": "https://zenodo.org/records/11471117",
+          "parent_doi": "https://doi.org/10.5281/zenodo.11471117",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11471117",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14041129/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14041129/sequence/default",
+          "files": "https://zenodo.org/api/records/14041129/files",
+          "media_files": "https://zenodo.org/api/records/14041129/media-files",
+          "archive": "https://zenodo.org/api/records/14041129/files-archive",
+          "archive_media": "https://zenodo.org/api/records/14041129/media-files-archive",
+          "latest": "https://zenodo.org/api/records/14041129/versions/latest",
+          "latest_html": "https://zenodo.org/records/14041129/latest",
+          "versions": "https://zenodo.org/api/records/14041129/versions",
+          "draft": "https://zenodo.org/api/records/14041129/draft",
+          "reserve_doi": "https://zenodo.org/api/records/14041129/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/14041129/access/links",
+          "access_grants": "https://zenodo.org/api/records/14041129/access/grants",
+          "access_users": "https://zenodo.org/api/records/14041129/access/users",
+          "access_request": "https://zenodo.org/api/records/14041129/access/request",
+          "access": "https://zenodo.org/api/records/14041129/access",
+          "communities": "https://zenodo.org/api/records/14041129/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/14041129/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/14041129/requests"
+        },
+        "updated": "2024-11-05T15:11:38.003913+00:00",
+        "recid": "14041129",
+        "revision": 4,
+        "files": [
+          {
+            "id": "2d0cdfd6-597f-4aec-b4c9-c58f4c703668",
+            "key": "events_2021070800-2021083123_T5.csv",
+            "size": 797,
+            "checksum": "md5:1d173f79aa027e358483367ea94381e5",
+            "links": {
+              "self": "https://zenodo.org/api/records/14041129/files/events_2021070800-2021083123_T5.csv/content"
+            }
+          },
+          {
+            "id": "6eaacb64-9acd-4a96-9057-84f56adf011f",
+            "key": "2021_2021_DDF.nc",
+            "size": 19502,
+            "checksum": "md5:4e5a96f903f26933a32903130256f2ef",
+            "links": {
+              "self": "https://zenodo.org/api/records/14041129/files/2021_2021_DDF.nc/content"
+            }
+          },
+          {
+            "id": "8a9a345b-addf-435b-97e7-66466d6469d3",
+            "key": "objects_08.tar",
+            "size": 24720896,
+            "checksum": "md5:e5b863a0a2d1c6a8a7796769deeb92bd",
+            "links": {
+              "self": "https://zenodo.org/api/records/14041129/files/objects_08.tar/content"
+            }
+          },
+          {
+            "id": "fcce0389-b786-4edf-ae02-1deb2641adad",
+            "key": "2021_2021_KO_params.nc",
+            "size": 24359,
+            "checksum": "md5:9ab56a7468e7061e41ae8ff9ad8653c1",
+            "links": {
+              "self": "https://zenodo.org/api/records/14041129/files/2021_2021_KO_params.nc/content"
+            }
+          },
+          {
+            "id": "73fb600e-9b1d-49cf-ad82-eb6dacfd32ae",
+            "key": "2021_iams.nc",
+            "size": 19154,
+            "checksum": "md5:9871ce66a1f00402d9ed9fe03e5e0012",
+            "links": {
+              "self": "https://zenodo.org/api/records/14041129/files/2021_iams.nc/content"
+            }
+          },
+          {
+            "id": "7a099877-f540-4ca3-b463-dfe7ed15b94a",
+            "key": "dummy_data.nc",
+            "size": 48775,
+            "checksum": "md5:9ac5abd410205000641ebdd68905c14a",
+            "links": {
+              "self": "https://zenodo.org/api/records/14041129/files/dummy_data.nc/content"
+            }
+          },
+          {
+            "id": "c871fd50-66fe-47a0-838c-5e374d244c50",
+            "key": "objects_202107080000-202108312300_T5.csv",
+            "size": 133913,
+            "checksum": "md5:68701af1f6272b781a39c9a99fcb00c3",
+            "links": {
+              "self": "https://zenodo.org/api/records/14041129/files/objects_202107080000-202108312300_T5.csv/content"
+            }
+          },
+          {
+            "id": "2b5a5cf1-e526-46cd-9e02-f9839038d9bc",
+            "key": "objects_07.tar",
+            "size": 20728320,
+            "checksum": "md5:196f6a2e128793f6aec46a8e3f2d2fc8",
+            "links": {
+              "self": "https://zenodo.org/api/records/14041129/files/objects_07.tar/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "1119224"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 148,
+          "unique_downloads": 120,
+          "views": 53,
+          "unique_views": 50,
+          "version_downloads": 72,
+          "version_unique_downloads": 60,
+          "version_unique_views": 19,
+          "version_views": 21
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2022-11-24T12:22:02.836627+00:00",
+        "modified": "2024-07-15T16:41:47.847021+00:00",
+        "id": 7356959,
+        "conceptrecid": "7356958",
+        "doi": "10.5281/zenodo.7356959",
+        "conceptdoi": "10.5281/zenodo.7356958",
+        "doi_url": "https://doi.org/10.5281/zenodo.7356959",
+        "metadata": {
+          "title": "The UK Climate Predicition 2009 (UKCP09) Outputs and metadata specification - Release 1.1",
+          "doi": "10.5281/zenodo.7356959",
+          "publication_date": "2014-01-02",
+          "description": "The UK Climate Predicition 2009 (UKCP09) Project user interface (UI) documentation. The User Interface (UI) provides the access to project outputs. These outputs must also be consistent and well-described with an appropriate level of information (metadata) passed to users alongside the data. This document explains the output formats delivered by the UI. Particular attention is paid to the formatting of CSV outputs which are likely to be the most commonly accessed by users.",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Stephens, Ag",
+              "affiliation": null
+            }
+          ],
+          "contributors": [
+            {
+              "name": "British Atmospheric Data Centre",
+              "affiliation": null,
+              "type": "Other"
+            },
+            {
+              "name": "UK Met Office",
+              "affiliation": null,
+              "type": "Other"
+            },
+            {
+              "name": "British Atmospheric Data Centre, UK Climate Impacts Programme",
+              "affiliation": null,
+              "type": "HostingInstitution"
+            }
+          ],
+          "keywords": [
+            "data and information"
+          ],
+          "subjects": [
+            {
+              "term": "Meteorology",
+              "identifier": "https://id.loc.gov/authorities/subjects/sh85084334.html",
+              "scheme": "url"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://www.metoffice.gov.uk/research/approach/collaboration/ukcp",
+              "relation": "isSupplementedBy",
+              "scheme": "url"
+            }
+          ],
+          "language": "eng",
+          "resource_type": {
+            "title": "Other",
+            "type": "other"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "ceda-document-repository"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "7356958"
+                }
+              }
+            ]
+          },
+          "notes": "Previously curated at: http://cedadocs.ceda.ac.uk/1280/\n\nThe publish date on this item was its original published date.\n\nThis item was previously associated with content (as an official url) at: http://ukclimateprojections.metoffice.gov.uk/.\n\nThis work was funded by: British Atmospheric Data Centre; and, UK Met Office.\n\nMain files in this record:\nUKCP09_file_format_spec.pdf\n\nItem originally deposited with Centre for Environmental Data Analysis (CEDA) document repository by Dr Ruth Petrie. Transferred to CEDA document repository community on Zenodo on 2022-11-24"
+        },
+        "title": "The UK Climate Predicition 2009 (UKCP09) Outputs and metadata specification - Release 1.1",
+        "links": {
+          "self": "https://zenodo.org/api/records/7356959",
+          "self_html": "https://zenodo.org/records/7356959",
+          "preview_html": "https://zenodo.org/records/7356959?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.7356959",
+          "self_doi": "https://doi.org/10.5281/zenodo.7356959",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7356959",
+          "parent": "https://zenodo.org/api/records/7356958",
+          "parent_html": "https://zenodo.org/records/7356958",
+          "parent_doi": "https://doi.org/10.5281/zenodo.7356958",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7356958",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7356959/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7356959/sequence/default",
+          "files": "https://zenodo.org/api/records/7356959/files",
+          "media_files": "https://zenodo.org/api/records/7356959/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:7356959:UKCP09_file_format_spec.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:7356959:UKCP09_file_format_spec.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:7356959:UKCP09_file_format_spec.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:7356959:UKCP09_file_format_spec.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:7356959:UKCP09_file_format_spec.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:7356959:UKCP09_file_format_spec.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/7356959/files-archive",
+          "archive_media": "https://zenodo.org/api/records/7356959/media-files-archive",
+          "latest": "https://zenodo.org/api/records/7356959/versions/latest",
+          "latest_html": "https://zenodo.org/records/7356959/latest",
+          "versions": "https://zenodo.org/api/records/7356959/versions",
+          "draft": "https://zenodo.org/api/records/7356959/draft",
+          "reserve_doi": "https://zenodo.org/api/records/7356959/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/7356959/access/links",
+          "access_grants": "https://zenodo.org/api/records/7356959/access/grants",
+          "access_users": "https://zenodo.org/api/records/7356959/access/users",
+          "access_request": "https://zenodo.org/api/records/7356959/access/request",
+          "access": "https://zenodo.org/api/records/7356959/access",
+          "communities": "https://zenodo.org/api/records/7356959/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/7356959/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/7356959/requests"
+        },
+        "updated": "2024-07-15T16:41:47.847021+00:00",
+        "recid": "7356959",
+        "revision": 6,
+        "files": [
+          {
+            "id": "750958ed-b187-4178-b08d-6b761c3cda96",
+            "key": "UKCP09_file_format_spec.pdf",
+            "size": 461075,
+            "checksum": "md5:c9b4f289124bd4faae723122c49f466e",
+            "links": {
+              "self": "https://zenodo.org/api/records/7356959/files/UKCP09_file_format_spec.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "260920"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 8,
+          "unique_downloads": 7,
+          "views": 21,
+          "unique_views": 20,
+          "version_downloads": 8,
+          "version_unique_downloads": 7,
+          "version_unique_views": 20,
+          "version_views": 21
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2023-06-12T19:32:28.238952+00:00",
+        "modified": "2023-06-13T02:27:04.353017+00:00",
+        "id": 8030084,
+        "conceptrecid": "8030083",
+        "doi": "10.5281/zenodo.8030084",
+        "conceptdoi": "10.5281/zenodo.8030083",
+        "doi_url": "https://doi.org/10.5281/zenodo.8030084",
+        "metadata": {
+          "title": "Data-4-Climate-Action-Edinburgh/Data4ClimateActionEdinburgh_Code_etc: Data from 2022 survey",
+          "doi": "10.5281/zenodo.8030084",
+          "publication_date": "2023-06-12",
+          "description": "<p>Results of the one-day survey carried out on the D4CAE stall at the 2022 Edinburgh Climate Festival.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "data4climateactionedinburgh",
+              "affiliation": "@Data-4-Climate-Action-Edinburgh"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/Data-4-Climate-Action-Edinburgh/Data4ClimateActionEdinburgh_Code_etc/tree/data",
+              "relation": "isSupplementTo",
+              "scheme": "url"
+            }
+          ],
+          "version": "data",
+          "resource_type": {
+            "title": "Software",
+            "type": "software"
+          },
+          "license": {
+            "id": "other-open"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "8030083"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Data-4-Climate-Action-Edinburgh/Data4ClimateActionEdinburgh_Code_etc: Data from 2022 survey",
+        "links": {
+          "self": "https://zenodo.org/api/records/8030084",
+          "self_html": "https://zenodo.org/records/8030084",
+          "preview_html": "https://zenodo.org/records/8030084?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.8030084",
+          "self_doi": "https://doi.org/10.5281/zenodo.8030084",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8030084",
+          "parent": "https://zenodo.org/api/records/8030083",
+          "parent_html": "https://zenodo.org/records/8030083",
+          "parent_doi": "https://doi.org/10.5281/zenodo.8030083",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8030083",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8030084/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8030084/sequence/default",
+          "files": "https://zenodo.org/api/records/8030084/files",
+          "media_files": "https://zenodo.org/api/records/8030084/media-files",
+          "archive": "https://zenodo.org/api/records/8030084/files-archive",
+          "archive_media": "https://zenodo.org/api/records/8030084/media-files-archive",
+          "latest": "https://zenodo.org/api/records/8030084/versions/latest",
+          "latest_html": "https://zenodo.org/records/8030084/latest",
+          "versions": "https://zenodo.org/api/records/8030084/versions",
+          "draft": "https://zenodo.org/api/records/8030084/draft",
+          "reserve_doi": "https://zenodo.org/api/records/8030084/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/8030084/access/links",
+          "access_grants": "https://zenodo.org/api/records/8030084/access/grants",
+          "access_users": "https://zenodo.org/api/records/8030084/access/users",
+          "access_request": "https://zenodo.org/api/records/8030084/access/request",
+          "access": "https://zenodo.org/api/records/8030084/access",
+          "communities": "https://zenodo.org/api/records/8030084/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/8030084/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/8030084/requests"
+        },
+        "updated": "2023-06-13T02:27:04.353017+00:00",
+        "recid": "8030084",
+        "revision": 3,
+        "files": [
+          {
+            "id": "57460a15-4449-4b5b-9854-079c976e0bd3",
+            "key": "Data-4-Climate-Action-Edinburgh/Data4ClimateActionEdinburgh_Code_etc-data.zip",
+            "size": 164576,
+            "checksum": "md5:7bb93303bc829948c2e850a27bbafe4d",
+            "links": {
+              "self": "https://zenodo.org/api/records/8030084/files/Data-4-Climate-Action-Edinburgh/Data4ClimateActionEdinburgh_Code_etc-data.zip/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "567813"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 6,
+          "unique_downloads": 5,
+          "views": 44,
+          "unique_views": 44,
+          "version_downloads": 6,
+          "version_unique_downloads": 5,
+          "version_unique_views": 44,
+          "version_views": 44
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2022-10-05T14:04:15.444420+00:00",
+        "modified": "2024-07-16T00:13:56.479868+00:00",
+        "id": 7148919,
+        "conceptrecid": "7148918",
+        "doi": "10.5281/zenodo.7148919",
+        "conceptdoi": "10.5281/zenodo.7148918",
+        "doi_url": "https://doi.org/10.5281/zenodo.7148919",
+        "metadata": {
+          "title": "Usability of Medium Resolution Optical Remote Sensing Images for Anomaly Detection in Maritime Surveillance Applications",
+          "doi": "10.5281/zenodo.7148919",
+          "publication_date": "2022-10-04",
+          "description": "<p>As part of the project &quot;Intelligent Assistance and&nbsp;Analysis Systems for Early Detection and Management of&nbsp;Maritime Hazardous Situations&rdquo; (IntelliMar) an anomaly&nbsp;detection application was developed and validated based on the&nbsp;analysis of Automatic Identification System (AIS) and Earth&nbsp;Observation (EO) remote sensing data. For this task optical Earth&nbsp;observation medium resolution satellite data from Landsat-8 and&nbsp;Sentinel-2 were used and their suitability in the context of object&nbsp;detection was evaluated. In a two-step approach, deep-learning&nbsp;methods were used for object detection and classification, and the&nbsp;derived results were then applied to a set of anomaly rules for anomaly report generation and transmission.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Schwarz, Egbert",
+              "affiliation": "German Remote Sensing Data Center (DFD) German Aerospace Center (DLR) Neustrelitz, Germany"
+            },
+            {
+              "name": "Voinov, Sergey",
+              "affiliation": "German Remote Sensing Data Center (DFD) German Aerospace Center (DLR) Neustrelitz, Germany"
+            },
+            {
+              "name": "Krause, Detmar",
+              "affiliation": "German Remote Sensing Data Center (DFD) German Aerospace Center (DLR) Neustrelitz, Germany"
+            }
+          ],
+          "keywords": [
+            "remote sensing",
+            "anomaly",
+            "object detection"
+          ],
+          "resource_type": {
+            "title": "Conference paper",
+            "type": "publication",
+            "subtype": "conferencepaper"
+          },
+          "meeting": {
+            "title": "European Workshop on Maritime Systems Resilience and Security 2022",
+            "acronym": "MARESEC 2022",
+            "dates": "20. June 2022",
+            "place": "Bremerhaven, Germany",
+            "url": "https://zenodo.org/communities/maresec2022"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "maresec2022"
+            },
+            {
+              "id": "dlr_de"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "7148918"
+                }
+              }
+            ]
+          },
+          "notes": "Work has received financial support from the Federal Ministry of Economics and Climate Protection."
+        },
+        "title": "Usability of Medium Resolution Optical Remote Sensing Images for Anomaly Detection in Maritime Surveillance Applications",
+        "links": {
+          "self": "https://zenodo.org/api/records/7148919",
+          "self_html": "https://zenodo.org/records/7148919",
+          "preview_html": "https://zenodo.org/records/7148919?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.7148919",
+          "self_doi": "https://doi.org/10.5281/zenodo.7148919",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7148919",
+          "parent": "https://zenodo.org/api/records/7148918",
+          "parent_html": "https://zenodo.org/records/7148918",
+          "parent_doi": "https://doi.org/10.5281/zenodo.7148918",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7148918",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7148919/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7148919/sequence/default",
+          "files": "https://zenodo.org/api/records/7148919/files",
+          "media_files": "https://zenodo.org/api/records/7148919/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:7148919:MARESEC_2022_21.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:7148919:MARESEC_2022_21.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:7148919:MARESEC_2022_21.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:7148919:MARESEC_2022_21.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:7148919:MARESEC_2022_21.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:7148919:MARESEC_2022_21.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/7148919/files-archive",
+          "archive_media": "https://zenodo.org/api/records/7148919/media-files-archive",
+          "latest": "https://zenodo.org/api/records/7148919/versions/latest",
+          "latest_html": "https://zenodo.org/records/7148919/latest",
+          "versions": "https://zenodo.org/api/records/7148919/versions",
+          "draft": "https://zenodo.org/api/records/7148919/draft",
+          "reserve_doi": "https://zenodo.org/api/records/7148919/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/7148919/access/links",
+          "access_grants": "https://zenodo.org/api/records/7148919/access/grants",
+          "access_users": "https://zenodo.org/api/records/7148919/access/users",
+          "access_request": "https://zenodo.org/api/records/7148919/access/request",
+          "access": "https://zenodo.org/api/records/7148919/access",
+          "communities": "https://zenodo.org/api/records/7148919/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/7148919/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/7148919/requests"
+        },
+        "updated": "2024-07-16T00:13:56.479868+00:00",
+        "recid": "7148919",
+        "revision": 7,
+        "files": [
+          {
+            "id": "925185a4-c55a-461c-bdb9-08b01b963072",
+            "key": "MARESEC_2022_21.pdf",
+            "size": 285242,
+            "checksum": "md5:03329fb212539e1523eb54aeef3522ce",
+            "links": {
+              "self": "https://zenodo.org/api/records/7148919/files/MARESEC_2022_21.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "46900"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 149,
+          "unique_downloads": 141,
+          "views": 148,
+          "unique_views": 141,
+          "version_downloads": 149,
+          "version_unique_downloads": 141,
+          "version_unique_views": 141,
+          "version_views": 148
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2023-01-10T05:12:28.009967+00:00",
+        "modified": "2024-07-12T21:58:35.599990+00:00",
+        "id": 7519299,
+        "conceptrecid": "7516207",
+        "doi": "10.5281/zenodo.7519299",
+        "conceptdoi": "10.5281/zenodo.7516207",
+        "doi_url": "https://doi.org/10.5281/zenodo.7519299",
+        "metadata": {
+          "title": "An Approach of Sustainable Development Model for Water Security in Growing Cities",
+          "doi": "10.5281/zenodo.7519299",
+          "publication_date": "2023-01-09",
+          "description": "<p>To address the growing water crisis, proper water resources management: realistic planning, and investment in water and sanitation can only achieve the Sustainable Development Goals (SDG) 2030. In developing countries like Nepal, government alone cannot deliver the required water services for the growing population of cities, still, the private sector is not interested and reluctant to invest due to the risks and low returns. Public Private partnerships (PPP) in water services have also provided mixed results for sustainable service delivery. To achieve the set target of managing water supply services of a scarce zone; need to understand the economic value and finance for water resources. Additionally, the formulation of essential and realistic policies, operational strategies, or plans for cost recovery and sustainable financing to increase services, particularly for the deprived and poor. Due to the lack of systematic knowledge, strategies for cost recovery are typically not comprehensive and fulfill only some aspects of the sustainability index. This leads to the degradation and low performance of water supply systems, resulting in the failure to deliver reliable services for the users. For a better living environment in cities, there are new and innovative ways to solve the problem of sustainable financing for water services such as blended finance, leveraging the services, involvement of the private sector, and promotion of commercial banks for sustainable financing of infrastructure for water services. Regardless, how to overcome the barriers by increasing the investments and contributions for coping of problems on water security in consideration with climate change: floods and droughts, that needs proper mitigation measures and sustainable growth in line with SDG target.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Nepal, Ganga Data",
+              "affiliation": "Freelancer"
+            }
+          ],
+          "keywords": [
+            "Investment, sustainable, degradation, infrastructure, and mitigation"
+          ],
+          "subjects": [
+            {
+              "term": null,
+              "identifier": "https://jsdp.org.np/",
+              "scheme": "url"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.7516208",
+              "relation": "isCitedBy",
+              "resource_type": "publication-article",
+              "scheme": "doi"
+            }
+          ],
+          "version": "1",
+          "language": "eng",
+          "resource_type": {
+            "title": "Journal article",
+            "type": "publication",
+            "subtype": "article"
+          },
+          "journal": {
+            "issue": "1",
+            "pages": "81-90",
+            "title": "Journey for Sustainable Development and Peace Journal",
+            "volume": "1"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 1,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "7516207"
+                }
+              }
+            ]
+          }
+        },
+        "title": "An Approach of Sustainable Development Model for Water Security in Growing Cities",
+        "links": {
+          "self": "https://zenodo.org/api/records/7519299",
+          "self_html": "https://zenodo.org/records/7519299",
+          "preview_html": "https://zenodo.org/records/7519299?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.7519299",
+          "self_doi": "https://doi.org/10.5281/zenodo.7519299",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7519299",
+          "parent": "https://zenodo.org/api/records/7516207",
+          "parent_html": "https://zenodo.org/records/7516207",
+          "parent_doi": "https://doi.org/10.5281/zenodo.7516207",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7516207",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7519299/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7519299/sequence/default",
+          "files": "https://zenodo.org/api/records/7519299/files",
+          "media_files": "https://zenodo.org/api/records/7519299/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:7519299:Sustainable-Finance-model-for-Water-Security-20230106.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:7519299:Sustainable-Finance-model-for-Water-Security-20230106.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:7519299:Sustainable-Finance-model-for-Water-Security-20230106.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:7519299:Sustainable-Finance-model-for-Water-Security-20230106.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:7519299:Sustainable-Finance-model-for-Water-Security-20230106.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:7519299:Sustainable-Finance-model-for-Water-Security-20230106.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/7519299/files-archive",
+          "archive_media": "https://zenodo.org/api/records/7519299/media-files-archive",
+          "latest": "https://zenodo.org/api/records/7519299/versions/latest",
+          "latest_html": "https://zenodo.org/records/7519299/latest",
+          "versions": "https://zenodo.org/api/records/7519299/versions",
+          "draft": "https://zenodo.org/api/records/7519299/draft",
+          "reserve_doi": "https://zenodo.org/api/records/7519299/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/7519299/access/links",
+          "access_grants": "https://zenodo.org/api/records/7519299/access/grants",
+          "access_users": "https://zenodo.org/api/records/7519299/access/users",
+          "access_request": "https://zenodo.org/api/records/7519299/access/request",
+          "access": "https://zenodo.org/api/records/7519299/access",
+          "communities": "https://zenodo.org/api/records/7519299/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/7519299/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/7519299/requests"
+        },
+        "updated": "2024-07-12T21:58:35.599990+00:00",
+        "recid": "7519299",
+        "revision": 5,
+        "files": [
+          {
+            "id": "dea5de29-2616-4000-9d44-5363cd4b6303",
+            "key": "Sustainable-Finance-model-for-Water-Security-20230106.pdf",
+            "size": 564832,
+            "checksum": "md5:4f5f757f9097200f92dc585b1b094195",
+            "links": {
+              "self": "https://zenodo.org/api/records/7519299/files/Sustainable-Finance-model-for-Water-Security-20230106.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "469843"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 159,
+          "unique_downloads": 153,
+          "views": 125,
+          "unique_views": 116,
+          "version_downloads": 90,
+          "version_unique_downloads": 86,
+          "version_unique_views": 76,
+          "version_views": 81
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2022-11-24T12:21:51.944644+00:00",
+        "modified": "2024-07-15T16:41:48.180475+00:00",
+        "id": 7356957,
+        "conceptrecid": "7356956",
+        "doi": "10.5281/zenodo.7356957",
+        "conceptdoi": "10.5281/zenodo.7356956",
+        "doi_url": "https://doi.org/10.5281/zenodo.7356957",
+        "metadata": {
+          "title": "The UK Climate Prediction 2009 (UKCP09) Threshold Detector Manual v1.2.0",
+          "doi": "10.5281/zenodo.7356957",
+          "publication_date": "2011-06-15",
+          "description": "The UK Climate Prediction 2009 (UKCP09) Threshold Detector Manual provides supporting information on detecting thresholds in the UKCP09 datasets.",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Stephens, Ag",
+              "affiliation": null
+            },
+            {
+              "name": "Bowyer, Paul",
+              "affiliation": null
+            },
+            {
+              "name": "Milin, Sophie",
+              "affiliation": null
+            }
+          ],
+          "contributors": [
+            {
+              "name": "British Atmospheric Data Centre",
+              "affiliation": null,
+              "type": "Other"
+            }
+          ],
+          "subjects": [
+            {
+              "term": "Mathematics",
+              "identifier": "https://id.loc.gov/authorities/subjects/sh85082139.html",
+              "scheme": "url"
+            },
+            {
+              "term": "Meteorology",
+              "identifier": "https://id.loc.gov/authorities/subjects/sh85084334.html",
+              "scheme": "url"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://www.metoffice.gov.uk/research/approach/collaboration/ukcp",
+              "relation": "isSupplementedBy",
+              "scheme": "url"
+            }
+          ],
+          "language": "eng",
+          "resource_type": {
+            "title": "Other",
+            "type": "other"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "ceda-document-repository"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "7356956"
+                }
+              }
+            ]
+          },
+          "notes": "Previously curated at: http://cedadocs.ceda.ac.uk/1279/\n\nThe publish date on this item was its original published date.\n\nThis item was previously associated with content (as an official url) at: http://ukclimateprojections.metoffice.gov.uk/.\n\nThis work was funded by: Department for Environment, Food and Rural Affairs (Defra); Department for Energy and Climate Change (DECC); and, UK Met Office.\n\nAssociated projects:\nUK Climate Prediction 2009 (UKCP09)\n\nMain files in this record:\nUKCP09_TD_manual.pdf\n\nItem originally deposited with Centre for Environmental Data Analysis (CEDA) document repository by Dr Ruth Petrie. Transferred to CEDA document repository community on Zenodo on 2022-11-24"
+        },
+        "title": "The UK Climate Prediction 2009 (UKCP09) Threshold Detector Manual v1.2.0",
+        "links": {
+          "self": "https://zenodo.org/api/records/7356957",
+          "self_html": "https://zenodo.org/records/7356957",
+          "preview_html": "https://zenodo.org/records/7356957?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.7356957",
+          "self_doi": "https://doi.org/10.5281/zenodo.7356957",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7356957",
+          "parent": "https://zenodo.org/api/records/7356956",
+          "parent_html": "https://zenodo.org/records/7356956",
+          "parent_doi": "https://doi.org/10.5281/zenodo.7356956",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7356956",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7356957/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7356957/sequence/default",
+          "files": "https://zenodo.org/api/records/7356957/files",
+          "media_files": "https://zenodo.org/api/records/7356957/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:7356957:UKCP09_TD_manual.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:7356957:UKCP09_TD_manual.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:7356957:UKCP09_TD_manual.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:7356957:UKCP09_TD_manual.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:7356957:UKCP09_TD_manual.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:7356957:UKCP09_TD_manual.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/7356957/files-archive",
+          "archive_media": "https://zenodo.org/api/records/7356957/media-files-archive",
+          "latest": "https://zenodo.org/api/records/7356957/versions/latest",
+          "latest_html": "https://zenodo.org/records/7356957/latest",
+          "versions": "https://zenodo.org/api/records/7356957/versions",
+          "draft": "https://zenodo.org/api/records/7356957/draft",
+          "reserve_doi": "https://zenodo.org/api/records/7356957/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/7356957/access/links",
+          "access_grants": "https://zenodo.org/api/records/7356957/access/grants",
+          "access_users": "https://zenodo.org/api/records/7356957/access/users",
+          "access_request": "https://zenodo.org/api/records/7356957/access/request",
+          "access": "https://zenodo.org/api/records/7356957/access",
+          "communities": "https://zenodo.org/api/records/7356957/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/7356957/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/7356957/requests"
+        },
+        "updated": "2024-07-15T16:41:48.180475+00:00",
+        "recid": "7356957",
+        "revision": 6,
+        "files": [
+          {
+            "id": "cc01463f-674d-4e45-950f-e19ada47620b",
+            "key": "UKCP09_TD_manual.pdf",
+            "size": 1320640,
+            "checksum": "md5:a09da2477de8fec5d9a12577d74943ff",
+            "links": {
+              "self": "https://zenodo.org/api/records/7356957/files/UKCP09_TD_manual.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "260920"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 11,
+          "unique_downloads": 11,
+          "views": 25,
+          "unique_views": 24,
+          "version_downloads": 11,
+          "version_unique_downloads": 11,
+          "version_unique_views": 24,
+          "version_views": 25
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2024-06-19T15:03:24.249405+00:00",
+        "modified": "2024-06-19T15:03:24.752427+00:00",
+        "id": 12168393,
+        "conceptrecid": "12168392",
+        "doi": "10.5281/zenodo.12168393",
+        "conceptdoi": "10.5281/zenodo.12168392",
+        "doi_url": "https://doi.org/10.5281/zenodo.12168393",
+        "metadata": {
+          "title": "Climate Pledge Ideas",
+          "doi": "10.5281/zenodo.12168393",
+          "publication_date": "2024-06-19",
+          "description": "<p>This is a poster made for Harwell Open Week 2024 which highlights different pledges we can take that will help cut emisions and tackle climate change.</p>\n<p>Feel free to share this poster as much as you'd like!&nbsp;</p>\n<p>&nbsp;</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "MacRae, Molly",
+              "affiliation": "Centre for Environmental Data Analysis",
+              "orcid": "0009-0001-5734-6534"
+            }
+          ],
+          "resource_type": {
+            "title": "Poster",
+            "type": "poster"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "ceda-document-repository"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "12168392"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Climate Pledge Ideas",
+        "links": {
+          "self": "https://zenodo.org/api/records/12168393",
+          "self_html": "https://zenodo.org/records/12168393",
+          "preview_html": "https://zenodo.org/records/12168393?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.12168393",
+          "self_doi": "https://doi.org/10.5281/zenodo.12168393",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12168393",
+          "parent": "https://zenodo.org/api/records/12168392",
+          "parent_html": "https://zenodo.org/records/12168392",
+          "parent_doi": "https://doi.org/10.5281/zenodo.12168392",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12168392",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:12168393/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:12168393/sequence/default",
+          "files": "https://zenodo.org/api/records/12168393/files",
+          "media_files": "https://zenodo.org/api/records/12168393/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:12168393:Climate%20pledge%20ideas.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:12168393:Climate%20pledge%20ideas.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:12168393:Climate%20pledge%20ideas.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:12168393:Climate%20pledge%20ideas.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:12168393:Climate%20pledge%20ideas.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:12168393:Climate%20pledge%20ideas.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/12168393/files-archive",
+          "archive_media": "https://zenodo.org/api/records/12168393/media-files-archive",
+          "latest": "https://zenodo.org/api/records/12168393/versions/latest",
+          "latest_html": "https://zenodo.org/records/12168393/latest",
+          "versions": "https://zenodo.org/api/records/12168393/versions",
+          "draft": "https://zenodo.org/api/records/12168393/draft",
+          "reserve_doi": "https://zenodo.org/api/records/12168393/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/12168393/access/links",
+          "access_grants": "https://zenodo.org/api/records/12168393/access/grants",
+          "access_users": "https://zenodo.org/api/records/12168393/access/users",
+          "access_request": "https://zenodo.org/api/records/12168393/access/request",
+          "access": "https://zenodo.org/api/records/12168393/access",
+          "communities": "https://zenodo.org/api/records/12168393/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/12168393/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/12168393/requests"
+        },
+        "updated": "2024-06-19T15:03:24.752427+00:00",
+        "recid": "12168393",
+        "revision": 4,
+        "files": [
+          {
+            "id": "643a98ad-3cf7-4ba3-bb8a-b6bf433356d1",
+            "key": "Climate pledge ideas.pdf",
+            "size": 2555710,
+            "checksum": "md5:d7214d3131c21f56848eadb1176ccdc7",
+            "links": {
+              "self": "https://zenodo.org/api/records/12168393/files/Climate pledge ideas.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "260920"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 97,
+          "unique_downloads": 83,
+          "views": 151,
+          "unique_views": 143,
+          "version_downloads": 97,
+          "version_unique_downloads": 83,
+          "version_unique_views": 143,
+          "version_views": 151
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2022-05-03T22:38:16.925501+00:00",
+        "modified": "2024-07-16T19:55:19.533195+00:00",
+        "id": 6516003,
+        "conceptrecid": "6516002",
+        "doi": "10.5281/zenodo.6516003",
+        "conceptdoi": "10.5281/zenodo.6516002",
+        "doi_url": "https://doi.org/10.5281/zenodo.6516003",
+        "metadata": {
+          "title": "Opportunity Brief: Look to the Local: Data and engagement in environmental and climate planning",
+          "doi": "10.5281/zenodo.6516003",
+          "publication_date": "2022-04-27",
+          "description": "<p>This opportunity brief focuses on the utility of environmental data and processes and procedures of local community engagement within environmental and climate topics. By leveraging openness to support environmental accountability and collaboration, this brief offers a unique insight into relationships between communities, government, research, tech, and philanthropy. This brief presents opportunities as entry points for data-informed participatory governance to support better climate and environmental planning. The opportunities presented here speak to specific participants within policy and planning landscapes: local, state, and tribal governments; communities and community-based organizations; civil society and academia; and philanthropy. While they are categorized by specific sectors, many of the opportunities are multi-sector in application.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Williams, Emelia",
+              "affiliation": "Open Environmental Data Project"
+            },
+            {
+              "name": "Hoeberling, Katie",
+              "affiliation": "Open Environmental Data Project",
+              "orcid": "0000-0001-7730-9741"
+            }
+          ],
+          "contributors": [
+            {
+              "name": "Dosemagen, Shannon",
+              "affiliation": "Open Environmental Data Project",
+              "type": "Editor",
+              "orcid": "0000-0001-7755-558X"
+            },
+            {
+              "name": "Cheripka, Michelle",
+              "affiliation": "Open Environmental Data Project",
+              "type": "Editor"
+            },
+            {
+              "name": "Eaton, Angela",
+              "affiliation": "Open Environmental Data Project",
+              "type": "Editor"
+            }
+          ],
+          "keywords": [
+            "open data",
+            "environmental policy",
+            "climate planning",
+            "local governance"
+          ],
+          "language": "eng",
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "6516002"
+                }
+              }
+            ]
+          },
+          "notes": "More information about our process and context for this brief can be found on Open Environmental Data Project's website at https://www.openenvironmentaldata.org/research-series/opportunity-brief-look-to-the-local"
+        },
+        "title": "Opportunity Brief: Look to the Local: Data and engagement in environmental and climate planning",
+        "links": {
+          "self": "https://zenodo.org/api/records/6516003",
+          "self_html": "https://zenodo.org/records/6516003",
+          "preview_html": "https://zenodo.org/records/6516003?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.6516003",
+          "self_doi": "https://doi.org/10.5281/zenodo.6516003",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6516003",
+          "parent": "https://zenodo.org/api/records/6516002",
+          "parent_html": "https://zenodo.org/records/6516002",
+          "parent_doi": "https://doi.org/10.5281/zenodo.6516002",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6516002",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:6516003/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:6516003/sequence/default",
+          "files": "https://zenodo.org/api/records/6516003/files",
+          "media_files": "https://zenodo.org/api/records/6516003/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:6516003:Spring%202022_OEDP_Opportunity%20Brief_Look%20to%20the%20Local.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:6516003:Spring%202022_OEDP_Opportunity%20Brief_Look%20to%20the%20Local.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:6516003:Spring%202022_OEDP_Opportunity%20Brief_Look%20to%20the%20Local.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:6516003:Spring%202022_OEDP_Opportunity%20Brief_Look%20to%20the%20Local.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:6516003:Spring%202022_OEDP_Opportunity%20Brief_Look%20to%20the%20Local.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:6516003:Spring%202022_OEDP_Opportunity%20Brief_Look%20to%20the%20Local.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/6516003/files-archive",
+          "archive_media": "https://zenodo.org/api/records/6516003/media-files-archive",
+          "latest": "https://zenodo.org/api/records/6516003/versions/latest",
+          "latest_html": "https://zenodo.org/records/6516003/latest",
+          "versions": "https://zenodo.org/api/records/6516003/versions",
+          "draft": "https://zenodo.org/api/records/6516003/draft",
+          "reserve_doi": "https://zenodo.org/api/records/6516003/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/6516003/access/links",
+          "access_grants": "https://zenodo.org/api/records/6516003/access/grants",
+          "access_users": "https://zenodo.org/api/records/6516003/access/users",
+          "access_request": "https://zenodo.org/api/records/6516003/access/request",
+          "access": "https://zenodo.org/api/records/6516003/access",
+          "communities": "https://zenodo.org/api/records/6516003/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/6516003/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/6516003/requests"
+        },
+        "updated": "2024-07-16T19:55:19.533195+00:00",
+        "recid": "6516003",
+        "revision": 5,
+        "files": [
+          {
+            "id": "7c201427-f88a-4da0-b5b6-72d46f087af4",
+            "key": "Spring 2022_OEDP_Opportunity Brief_Look to the Local.pdf",
+            "size": 98184593,
+            "checksum": "md5:a7d72e6e74cb9a18266a0f3e25905d79",
+            "links": {
+              "self": "https://zenodo.org/api/records/6516003/files/Spring 2022_OEDP_Opportunity Brief_Look to the Local.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "344738"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 163,
+          "unique_downloads": 132,
+          "views": 117,
+          "unique_views": 109,
+          "version_downloads": 162,
+          "version_unique_downloads": 131,
+          "version_unique_views": 109,
+          "version_views": 117
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2023-05-09T08:33:44.616422+00:00",
+        "modified": "2023-05-10T09:08:57.120722+00:00",
+        "id": 7912833,
+        "conceptrecid": "7911881",
+        "doi": "10.5281/zenodo.7912833",
+        "conceptdoi": "10.5281/zenodo.7911881",
+        "doi_url": "https://doi.org/10.5281/zenodo.7912833",
+        "metadata": {
+          "title": "EVIDENT H2020– Environmental data for Sweden cities Dataset",
+          "doi": "10.5281/zenodo.7912833",
+          "publication_date": "2023-05-09",
+          "description": "<p>EVIDENT H2020- Environmental data for Swedish Cities Dataset</p>\n\n<p>Environmental data from 615 cities in Sweden</p>\n\n<p>Weather, in combination with residential characteristics and electricity consumption, might be useful to consider in association with other datasets. In the instance of EVIDENT, they will be examined in combination with electricity consumption to establish the correlation with weather and to examine if weather conditions contribute and should be considered for policy development.</p>\n\n<p>The data have been collected from 18.10.2021 to 4.05.2023 and refer to 615 Swedish cities. The collection has been carried out with agents created and by calling in API. In the file &quot;Sweden_Cities_Avg_DaySect.xlsx&quot;, all cities have averaged from all measures. Also, the day has been divided into 3 sections and the averages apply to each section of the day.</p>\n\n<p>In each city, on average, there are 6 measurements per day. The source dataset is &quot;swedish_cities_environmental.csv.&quot;. example</p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>country</td>\n\t\t\t<td>city</td>\n\t\t\t<td>temperature</td>\n\t\t\t<td>feels_like</td>\n\t\t\t<td>temp_min</td>\n\t\t\t<td>temp_max</td>\n\t\t\t<td>pressure</td>\n\t\t\t<td>humidity</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>wind_speed</td>\n\t\t\t<td>wind_deg</td>\n\t\t\t<td>sunrise</td>\n\t\t\t<td>sunset</td>\n\t\t\t<td>weather_description</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>There are 2 more datasets, &quot;swedish cities environmental_tranformDay.csv&quot; and &quot;swedish cities environmental_week.csv&quot;, and refer to transformations made in the original dataset.<br>\nThe first file is about the day analysis, where the day has been divided into 3 sections and depending on the time of the measurement, a new column has been created in the Day section and can take values 0,1,2. In addition, there is the column day_hours which is the duration of the day in seconds from sunrise to sunset. Finally, there is pressure, humidity and wind speed. In the second file, the column weekday has been added and relates to the day of the week (e.g. Monday), and the daily analysis has been removed.</p>\n\n<p>More information can be found on the public deliverables of the EVIDENT project&nbsp;<a href=\"https://evident-h2020.eu/deliverables/\">https://evident-h2020.eu/deliverables/</a>. More specifically, the experiment&#39;s theoretical framework and motivation are described in are described in deliverable D1.2&nbsp;&nbsp;<a href=\"https://evident-h2020.eu/wp-content/uploads/2021/12/EVIDENT_D1.2_Assessing_behavioural_biases_and_financial_literacy.pdf\">Assessing behavioural biases and financial literacy</a>&nbsp;and deliverable&nbsp;<strong>D1.3</strong>&nbsp;<a href=\"https://evident-h2020.eu/wp-content/uploads/2022/03/EVIDENT_D1.3_Specification_of_Big_Data_Analytics.pdf\">Specifications of Big Data Analytics</a>, in section 4&nbsp;while the final design is reported in&nbsp;<strong>D3.2</strong>&nbsp;<a href=\"http://evident-h2020.eu/wp-content/uploads/2023/01/EVIDENT_D3.2_Implementation-of-preparatory-actions-for-RCT-surveys-and-serious-game.pdf\">Implementation of preparatory actions for RCT, surveys and serious game</a>.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Sidiras, George",
+              "affiliation": "George",
+              "orcid": "0000-0001-6068-369X"
+            },
+            {
+              "name": "Ioannidis, Dimosthenis",
+              "affiliation": "Dimosthenis",
+              "orcid": "0000-0002-5747-2186"
+            }
+          ],
+          "keywords": [
+            "Environmental data , weather Sweden, Swedish climate data, Sweden weather data, Sweden temperature data, Sweden humidity data,Swedish meteorological data, Sweden city climate data,Dataset of environmental data for 700 Swedish cities"
+          ],
+          "version": "01",
+          "language": "ang",
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "957117",
+              "internal_id": "10.13039/501100000780::957117",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "bEhaVioral Insgihts anD Effective eNergy policy acTions",
+              "acronym": "EVIDENT",
+              "program": "H2020-EU.3.3.",
+              "url": "https://cordis.europa.eu/projects/957117"
+            }
+          ],
+          "communities": [
+            {
+              "id": "eu"
+            },
+            {
+              "id": "h2020_evident_project"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 2,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "7911881"
+                }
+              }
+            ]
+          },
+          "notes": "weather Sweden environmental data\nSwedish climate data\nSweden weather data\nSweden temperature data\nSweden humidity data\nSwedish meteorological data\nSweden city climate data\nSwedish city weather data\nSweden city temperature data\nSweden city humidity data\nSwedish urban climate data\nSweden urban weather data\nSweden urban temperature data\nSweden urban humidity data\nDataset of Sweden city temperatures and humidities\nDataset of environmental data for 700 Swedish cities\nSwedish city climate and weather dataset"
+        },
+        "title": "EVIDENT H2020– Environmental data for Sweden cities Dataset",
+        "links": {
+          "self": "https://zenodo.org/api/records/7912833",
+          "self_html": "https://zenodo.org/records/7912833",
+          "preview_html": "https://zenodo.org/records/7912833?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.7912833",
+          "self_doi": "https://doi.org/10.5281/zenodo.7912833",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7912833",
+          "parent": "https://zenodo.org/api/records/7911881",
+          "parent_html": "https://zenodo.org/records/7911881",
+          "parent_doi": "https://doi.org/10.5281/zenodo.7911881",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7911881",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7912833/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7912833/sequence/default",
+          "files": "https://zenodo.org/api/records/7912833/files",
+          "media_files": "https://zenodo.org/api/records/7912833/media-files",
+          "archive": "https://zenodo.org/api/records/7912833/files-archive",
+          "archive_media": "https://zenodo.org/api/records/7912833/media-files-archive",
+          "latest": "https://zenodo.org/api/records/7912833/versions/latest",
+          "latest_html": "https://zenodo.org/records/7912833/latest",
+          "versions": "https://zenodo.org/api/records/7912833/versions",
+          "draft": "https://zenodo.org/api/records/7912833/draft",
+          "reserve_doi": "https://zenodo.org/api/records/7912833/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/7912833/access/links",
+          "access_grants": "https://zenodo.org/api/records/7912833/access/grants",
+          "access_users": "https://zenodo.org/api/records/7912833/access/users",
+          "access_request": "https://zenodo.org/api/records/7912833/access/request",
+          "access": "https://zenodo.org/api/records/7912833/access",
+          "communities": "https://zenodo.org/api/records/7912833/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/7912833/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/7912833/requests"
+        },
+        "updated": "2023-05-10T09:08:57.120722+00:00",
+        "recid": "7912833",
+        "revision": 16,
+        "files": [
+          {
+            "id": "38accb0c-77e0-447d-b58e-b9825b6021a4",
+            "key": "swedish cities environmental_week.csv",
+            "size": 38778552,
+            "checksum": "md5:a35ca193a0ff7d6c6775ee3ed001e8a5",
+            "links": {
+              "self": "https://zenodo.org/api/records/7912833/files/swedish cities environmental_week.csv/content"
+            }
+          },
+          {
+            "id": "c7185fd2-29bc-4fc1-a4dd-5421f7a00ee6",
+            "key": "Sweden_Cities_Avg_DaySect.xlsx",
+            "size": 178219,
+            "checksum": "md5:d4b62ea4224a693fa33cc185d853f8d7",
+            "links": {
+              "self": "https://zenodo.org/api/records/7912833/files/Sweden_Cities_Avg_DaySect.xlsx/content"
+            }
+          },
+          {
+            "id": "4d9630a7-6077-481e-a080-b744958e6433",
+            "key": "swedish_cities_environmental.csv",
+            "size": 446435467,
+            "checksum": "md5:2ea35cdbc7397cc2e3c02c0ef9c86a64",
+            "links": {
+              "self": "https://zenodo.org/api/records/7912833/files/swedish_cities_environmental.csv/content"
+            }
+          },
+          {
+            "id": "6dcf0f0b-3f1b-488d-b345-beb3c511185d",
+            "key": "swedish cities environmental_tranformDay.csv",
+            "size": 96821893,
+            "checksum": "md5:ea3fcb28a94a0787075fe568b03f91e0",
+            "links": {
+              "self": "https://zenodo.org/api/records/7912833/files/swedish cities environmental_tranformDay.csv/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "260415"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 211,
+          "unique_downloads": 171,
+          "views": 512,
+          "unique_views": 462,
+          "version_downloads": 141,
+          "version_unique_downloads": 116,
+          "version_unique_views": 334,
+          "version_views": 366
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2015-04-10T16:45:47+00:00",
+        "modified": "2020-01-24T19:25:02.931378+00:00",
+        "id": 16702,
+        "conceptrecid": "609285",
+        "doi": "10.5281/zenodo.16702",
+        "conceptdoi": "",
+        "doi_url": "https://doi.org/10.5281/zenodo.16702",
+        "metadata": {
+          "title": "C3-EURO4M-MEDARE Mediterranean historical climate data - v.2",
+          "doi": "10.5281/zenodo.16702",
+          "publication_date": "2015-04-09",
+          "description": "<p>Historical surface climate data files and meta-data for stations in Mediterranean North Africa and Middle East areas (1852-2008).</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Centre for Climate Change / URV",
+              "affiliation": "Centre for Climate Change / URV"
+            }
+          ],
+          "keywords": [
+            "historical climate data rescue",
+            "meteorological stations",
+            "daily maximum temperature",
+            "daily minimum temperature",
+            "daily precipitation",
+            "hourly air pressure",
+            "Mediterranean",
+            "North Africa",
+            "Middle East"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.1002/gdj3.12",
+              "relation": "isSupplementTo",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.7531",
+              "relation": "isSupplementTo",
+              "scheme": "doi"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-zero"
+          },
+          "grants": [
+            {
+              "code": "242093",
+              "internal_id": "10.13039/501100000780::242093",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "EUropean Reanalysis and Observations for Monitoring",
+              "acronym": "EURO4M",
+              "program": "FP7-SPACE",
+              "url": "https://cordis.europa.eu/projects/242093"
+            }
+          ],
+          "communities": [
+            {
+              "id": "eu"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "609285"
+                }
+              }
+            ]
+          },
+          "notes": "This is the version 2 of the C3-EURO4M-MEDARE Mediterranean historical climate data (DOI: 10.5281/zenodo.7531). The data files are in ASCII format. This dataset is cited in Brunet, M., Gilabert, A., Jones, P. and  Efthymiadis, D. (2014),  A historical climate dataset from surface station observations in Mediterranean North Africa and Middle East areas. Geoscience Data Journal. DOI: 10.1002/gdj3 .12"
+        },
+        "title": "C3-EURO4M-MEDARE Mediterranean historical climate data - v.2",
+        "links": {
+          "self": "https://zenodo.org/api/records/16702",
+          "self_html": "https://zenodo.org/records/16702",
+          "preview_html": "https://zenodo.org/records/16702?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.16702",
+          "self_doi": "https://doi.org/10.5281/zenodo.16702",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16702",
+          "parent": "https://zenodo.org/api/records/609285",
+          "parent_html": "https://zenodo.org/records/609285",
+          "parent_doi": "https://doi.org/",
+          "parent_doi_html": "https://zenodo.org/doi/",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16702/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16702/sequence/default",
+          "files": "https://zenodo.org/api/records/16702/files",
+          "media_files": "https://zenodo.org/api/records/16702/media-files",
+          "archive": "https://zenodo.org/api/records/16702/files-archive",
+          "archive_media": "https://zenodo.org/api/records/16702/media-files-archive",
+          "latest": "https://zenodo.org/api/records/16702/versions/latest",
+          "latest_html": "https://zenodo.org/records/16702/latest",
+          "versions": "https://zenodo.org/api/records/16702/versions",
+          "draft": "https://zenodo.org/api/records/16702/draft",
+          "reserve_doi": "https://zenodo.org/api/records/16702/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/16702/access/links",
+          "access_grants": "https://zenodo.org/api/records/16702/access/grants",
+          "access_users": "https://zenodo.org/api/records/16702/access/users",
+          "access_request": "https://zenodo.org/api/records/16702/access/request",
+          "access": "https://zenodo.org/api/records/16702/access",
+          "communities": "https://zenodo.org/api/records/16702/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/16702/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/16702/requests"
+        },
+        "updated": "2020-01-24T19:25:02.931378+00:00",
+        "recid": "16702",
+        "revision": 11,
+        "files": [
+          {
+            "id": "49dbfb3f-8b3d-4d5c-8c25-08683f3bb6a0",
+            "key": "C3-EURO4M-MEDARE_RR_v2.txt",
+            "size": 23903414,
+            "checksum": "md5:31b39dee5e5e0b14ab1b513367b5a9de",
+            "links": {
+              "self": "https://zenodo.org/api/records/16702/files/C3-EURO4M-MEDARE_RR_v2.txt/content"
+            }
+          },
+          {
+            "id": "111f3efc-79cd-4ef6-ad89-5073de98fe68",
+            "key": "C3-EURO4M-MEDARE_TN_v2.txt",
+            "size": 22900201,
+            "checksum": "md5:8e8b70769222ea5a1a7dc614531bab57",
+            "links": {
+              "self": "https://zenodo.org/api/records/16702/files/C3-EURO4M-MEDARE_TN_v2.txt/content"
+            }
+          },
+          {
+            "id": "e6ab9658-2494-409a-a9f0-d5dee8811fb1",
+            "key": "C3-EURO4M-MEDARE_TX_v2.txt",
+            "size": 23107753,
+            "checksum": "md5:dfe4329e2b8a827485a1284cc985c91c",
+            "links": {
+              "self": "https://zenodo.org/api/records/16702/files/C3-EURO4M-MEDARE_TX_v2.txt/content"
+            }
+          },
+          {
+            "id": "005afbd8-1d0f-4089-ab77-5f999e145ef0",
+            "key": "C3-EURO4M-MEDARE_PP_v2.txt",
+            "size": 46083387,
+            "checksum": "md5:27f8878b506b20c522bd2946f83b1b23",
+            "links": {
+              "self": "https://zenodo.org/api/records/16702/files/C3-EURO4M-MEDARE_PP_v2.txt/content"
+            }
+          },
+          {
+            "id": "fa7f7287-2ebb-4827-a799-e0fa6aa6dc47",
+            "key": "C3-EURO4M-MEDARE_readme_v2.txt",
+            "size": 22587,
+            "checksum": "md5:d04a597e4b389df2274b122934519ea5",
+            "links": {
+              "self": "https://zenodo.org/api/records/16702/files/C3-EURO4M-MEDARE_readme_v2.txt/content"
+            }
+          },
+          {
+            "id": "6bb61383-916b-4473-96ab-aa22d1f68c02",
+            "key": "C3-EURO4M-MEDARE_documentingQC_v2.txt",
+            "size": 1893983,
+            "checksum": "md5:af98a93e7a6c569200b79fce6db22e59",
+            "links": {
+              "self": "https://zenodo.org/api/records/16702/files/C3-EURO4M-MEDARE_documentingQC_v2.txt/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "1739"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 327,
+          "unique_downloads": 245,
+          "views": 1143,
+          "unique_views": 996,
+          "version_downloads": 323,
+          "version_unique_downloads": 241,
+          "version_unique_views": 993,
+          "version_views": 1140
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2024-04-01T10:10:46.789572+00:00",
+        "modified": "2024-07-06T18:09:36.162200+00:00",
+        "id": 10902277,
+        "conceptrecid": "10902276",
+        "doi": "10.5281/zenodo.10902277",
+        "conceptdoi": "10.5281/zenodo.10902276",
+        "doi_url": "https://doi.org/10.5281/zenodo.10902277",
+        "metadata": {
+          "title": "Keep or delete data?  - A decision guide",
+          "doi": "10.5281/zenodo.10902277",
+          "publication_date": "2024-04-01",
+          "description": "<p>Data is of great importance in both private and professional environments, as it is essential for communication, organisation, entertainment, business decisions, innovation and security. &nbsp;Data also plays an important role in scientific research. It not only forms the basis for knowledge, but is also crucial for the reproducibility, traceability and integrity of research results and can be reused for further research. The long-term storage and accessibility of data may therefore be necessary. The data is made accessible or stored in databases, repositories and archives. On the other hand, sensitivity aspects may require the secure deletion of data. &nbsp;Many researchers find it difficult to delete data. The decision as to whether data should or can be retained or deleted, but also how data should be stored, depends on various factors and can vary depending on the context. &nbsp;This article is intended to provide guidance on keeping or deleting data.&nbsp;</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Anders, Ivonne",
+              "affiliation": "Deutsches Klimarechenzentrum GmbH",
+              "orcid": "0000-0001-7337-3009"
+            },
+            {
+              "name": "Lammert, Andrea",
+              "affiliation": "Deutsches Klimarechenzentrum GmbH",
+              "orcid": "0000-0002-1506-4299"
+            },
+            {
+              "name": "Löhden, Aenne",
+              "affiliation": "Deutsches Klimarechenzentrum GmbH"
+            },
+            {
+              "name": "Peters-von Gehlen, Karsten",
+              "affiliation": "Deutsches Klimarechenzentrum GmbH",
+              "orcid": "0000-0003-0158-2957"
+            }
+          ],
+          "contributors": [
+            {
+              "name": "German Climate Computing Centre",
+              "affiliation": null,
+              "type": "HostingInstitution"
+            }
+          ],
+          "keywords": [
+            "data deletion",
+            "data preservation",
+            "guidance",
+            "data management"
+          ],
+          "dates": [
+            {
+              "type": "created"
+            }
+          ],
+          "version": "1.0.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Publication",
+            "type": "publication"
+          },
+          "license": {
+            "id": "cc-by-sa-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "10902276"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Keep or delete data?  - A decision guide",
+        "links": {
+          "self": "https://zenodo.org/api/records/10902277",
+          "self_html": "https://zenodo.org/records/10902277",
+          "preview_html": "https://zenodo.org/records/10902277?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.10902277",
+          "self_doi": "https://doi.org/10.5281/zenodo.10902277",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10902277",
+          "parent": "https://zenodo.org/api/records/10902276",
+          "parent_html": "https://zenodo.org/records/10902276",
+          "parent_doi": "https://doi.org/10.5281/zenodo.10902276",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10902276",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10902277/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10902277/sequence/default",
+          "files": "https://zenodo.org/api/records/10902277/files",
+          "media_files": "https://zenodo.org/api/records/10902277/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:10902277:keep-or-delete-data_20240401_Andersetal_Figure1_EN.png/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:10902277:keep-or-delete-data_20240401_Andersetal_Figure1_EN.png/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:10902277:keep-or-delete-data_20240401_Andersetal_Figure1_EN.png/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:10902277:keep-or-delete-data_20240401_Andersetal_Figure1_EN.png/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:10902277:keep-or-delete-data_20240401_Andersetal_Figure1_EN.png/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:10902277:keep-or-delete-data_20240401_Andersetal_Figure1_EN.png/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/10902277/files-archive",
+          "archive_media": "https://zenodo.org/api/records/10902277/media-files-archive",
+          "latest": "https://zenodo.org/api/records/10902277/versions/latest",
+          "latest_html": "https://zenodo.org/records/10902277/latest",
+          "versions": "https://zenodo.org/api/records/10902277/versions",
+          "draft": "https://zenodo.org/api/records/10902277/draft",
+          "reserve_doi": "https://zenodo.org/api/records/10902277/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/10902277/access/links",
+          "access_grants": "https://zenodo.org/api/records/10902277/access/grants",
+          "access_users": "https://zenodo.org/api/records/10902277/access/users",
+          "access_request": "https://zenodo.org/api/records/10902277/access/request",
+          "access": "https://zenodo.org/api/records/10902277/access",
+          "communities": "https://zenodo.org/api/records/10902277/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/10902277/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/10902277/requests"
+        },
+        "updated": "2024-07-06T18:09:36.162200+00:00",
+        "recid": "10902277",
+        "revision": 6,
+        "files": [
+          {
+            "id": "d1a98115-30ad-43a3-bc29-e566b8692685",
+            "key": "keep-or-delete-data_20240401_Andersetal_Figure1_EN.png",
+            "size": 4617610,
+            "checksum": "md5:2af5bcda43a9544d64263cd7f74b1916",
+            "links": {
+              "self": "https://zenodo.org/api/records/10902277/files/keep-or-delete-data_20240401_Andersetal_Figure1_EN.png/content"
+            }
+          },
+          {
+            "id": "dbec7b3f-933d-4c18-b485-a9e2b8d24303",
+            "key": "keep-or-delete-data_20240401_Andersetal_EN.pdf",
+            "size": 304440,
+            "checksum": "md5:de746a4fd5e2ae4a32cfd76492d19f43",
+            "links": {
+              "self": "https://zenodo.org/api/records/10902277/files/keep-or-delete-data_20240401_Andersetal_EN.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "1034705"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 93,
+          "unique_downloads": 73,
+          "views": 133,
+          "unique_views": 121,
+          "version_downloads": 93,
+          "version_unique_downloads": 73,
+          "version_unique_views": 121,
+          "version_views": 133
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2020-02-14T14:34:43.228841+00:00",
+        "modified": "2024-07-22T12:49:22.396260+00:00",
+        "id": 3667635,
+        "conceptrecid": "3667634",
+        "doi": "10.5281/zenodo.3667635",
+        "conceptdoi": "10.5281/zenodo.3667634",
+        "doi_url": "https://doi.org/10.5281/zenodo.3667635",
+        "metadata": {
+          "title": "Towards increasing the reusability of atmospheric model data: adapting metadata standards and introducing quality criteria",
+          "doi": "10.5281/zenodo.3667635",
+          "publication_date": "2020-02-14",
+          "description": "<p>We present current and future work at the German Climate Computing Center (DKRZ) aimed at increasing the long-term reusability of atmospheric and climate model data. Specifically the recently funded project AtMoDat (project start: June 2019, duration of 3 years) will be in the focus of the presentation.</p>\n\n<p>DKRZ plays a central role for the German and international Earth System Science (ESS) community by hosting the IPCC (Intergovernmental Panel on Climate Change) Data Distribution Center (IPCC DDC) Reference Data Archive for global climate model output (World Data Center for Climate, WDCC) as well as a Tier 1 data node of the ESGF (Earth System Grid Federation, an infrastructure enabling the global dissemination of large-volume climate model data). Further, DKRZ offers a variety of data management services covering all aspects of the research data life cycle.</p>\n\n<p>In particular, DKRZ services play a vital role for the long-term curation and reusability of numerical model output gathered in the context of large and internationally coordinated coupled model intercomparison projects (CMIPs). In order for CMIP to work, data and metadata standards as well as long-term data curation mechanisms have been thoroughly defined and are continuously adapted to allow for effective data sharing, reuse and preservation of the scientific record. Once a new CMIP-standard is established by the international community in an iterative process, the post-processing of numerical model output is often very cumbersome because i) the process behind the definition of the standard appears intransparent, ii) the standard is elaborate and requires meticulous attention to details, e.g. in the creation of metadata and iii) CMIP-compliance of model output is often not taken into account from the beginning of data production. Once the model output data fullfill the standard, their further processing and usage is simplified.</p>\n\n<p>This high degree of standardisation and long-term reusability of climate model data is desirable, but the application of the CMIP-standard does not lend itself to most sub-communities of atmospheric science and smaller model intercomparison projects.</p>\n\n<p>The project AtMoDat (<a href=\"http://www.atmodat.de\">www.atmodat.de</a>), lead by DKRZ, builds on the existing expertise at DKRZ and its project partners to focus on increasing the reusability of atmospheric model data. Data standards as well as curation criteria are developed for meteorological sub-communities for which i) the application of the full CMIP standard is not feasible and ii) no agreed data standards for ensuring (inter-)disciplinary data reuse even exist. Specific use-cases are the urban-climate science community and small-scale climate model intercomparison projects. The developments in AtMoDat start from the full CMIP-standard, which is adapted to meet the demands of these application domains. Further, AtMoDat will develop and test the application of atmospheric model data quality criteria to perform an &quot;AtMoDat DOI-Branding&quot; by developing a specific adaptation of the DataCite metadata model for atmospheric model data.</p>\n\n<p>First results of AtMoDat will be illustrated in the presentation. AtMoDat is funded by the German Federal Ministry for Education and Research (BMBF, FKZ 16QK02A).</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Peters, Karsten",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "orcid": "0000-0003-0158-2957"
+            },
+            {
+              "name": "Neumann, Daniel",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "orcid": "0000-0001-8574-9093"
+            },
+            {
+              "name": "Thiemann, Hannes",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "orcid": "0000-0002-2329-8511"
+            }
+          ],
+          "contributors": [
+            {
+              "name": "Ganske, Anette",
+              "affiliation": "Technische Informationsbibliothek (TIB), Welfengarten 1 B, 30167 Hannover, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0003-1043-4964"
+            },
+            {
+              "name": "Kraft, Angelina",
+              "affiliation": "Technische Informationsbibliothek (TIB), Welfengarten 1 B, 30167 Hannover, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0002-6454-335X"
+            },
+            {
+              "name": "Neumann, Daniel",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0001-8574-9093"
+            },
+            {
+              "name": "Thiemann, Hannes",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "type": "ProjectManager",
+              "orcid": "0000-0002-2329-8511"
+            },
+            {
+              "name": "Peters, Karsten",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "type": "ContactPerson",
+              "orcid": "0000-0003-0158-2957"
+            },
+            {
+              "name": "Schlünzen, Heinke",
+              "affiliation": "University of Hamburg, Meteorological Institute, Bundesstr. 55, 20146 Hamburg, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0002-5711-547X"
+            },
+            {
+              "name": "Lammert, Andrea",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0002-1506-4299"
+            },
+            {
+              "name": "Kindermann, Stephan",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0001-9335-1093"
+            },
+            {
+              "name": "Höck, Heinke",
+              "affiliation": "Deutsches Klimarechenzentrum (DKRZ), Data Management, Bundesstr. 45a, 20146 Hamburg, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0002-0131-1404"
+            },
+            {
+              "name": "Quaas, Johannes",
+              "affiliation": "University of Leipzig, Leipzig Institute for Meteorology, Stephanstr. 3, 04103 Leipzig, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0001-7057-194X"
+            },
+            {
+              "name": "Voss, Vivien",
+              "affiliation": "University of Hamburg, Meteorological Institute, Bundesstr. 55, 20146 Hamburg, Germany",
+              "type": "ProjectMember",
+              "orcid": "0000-0001-7329-8192"
+            }
+          ],
+          "keywords": [
+            "metadata",
+            "quality",
+            "DataCite",
+            "atmospheric science",
+            "CMIP",
+            "CMIP6",
+            "standardization",
+            "project",
+            "atmospheric modeling",
+            "respository",
+            "data archival",
+            "FAIR",
+            "atmodat"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.1038/sdata.2016.18",
+              "relation": "references",
+              "resource_type": "publication-article",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "https://www.atmodat.de/dissemination/generic-quality-indicators-in-metadata-of-datacite-dois",
+              "relation": "references",
+              "resource_type": "publication-workingpaper",
+              "scheme": "url"
+            },
+            {
+              "identifier": "https://www.atmodat.de/dissemination/a-discipline-specific-quality-standard-for-atmospheric-model-data",
+              "relation": "references",
+              "resource_type": "publication-workingpaper",
+              "scheme": "url"
+            }
+          ],
+          "version": "v1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Presentation",
+            "type": "presentation"
+          },
+          "meeting": {
+            "title": "15th International Digital Curation Conference",
+            "acronym": "IDCC20",
+            "dates": "17-20 February 2020",
+            "place": "Croke Park, Dublin",
+            "url": "http://www.dcc.ac.uk/drupal/events/idcc20",
+            "session": "Metadata and reusability",
+            "session_part": "1"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "idcc20"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "3667634"
+                }
+              }
+            ]
+          },
+          "notes": "AtMoDat is funded by the German Federal Ministry for Education and Research (BMBF) within the framework of \"Forschungsvorhaben zur Entwicklung und Erprobung von Kurationskriterien und Qualitätsstandards von Forschungsdaten\" FKZ 16QK02A)."
+        },
+        "title": "Towards increasing the reusability of atmospheric model data: adapting metadata standards and introducing quality criteria",
+        "links": {
+          "self": "https://zenodo.org/api/records/3667635",
+          "self_html": "https://zenodo.org/records/3667635",
+          "preview_html": "https://zenodo.org/records/3667635?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.3667635",
+          "self_doi": "https://doi.org/10.5281/zenodo.3667635",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3667635",
+          "parent": "https://zenodo.org/api/records/3667634",
+          "parent_html": "https://zenodo.org/records/3667634",
+          "parent_doi": "https://doi.org/10.5281/zenodo.3667634",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3667634",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3667635/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3667635/sequence/default",
+          "files": "https://zenodo.org/api/records/3667635/files",
+          "media_files": "https://zenodo.org/api/records/3667635/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:3667635:idcc_lightnight_metadata_neumannd__talk147_v1.0.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:3667635:idcc_lightnight_metadata_neumannd__talk147_v1.0.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:3667635:idcc_lightnight_metadata_neumannd__talk147_v1.0.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:3667635:idcc_lightnight_metadata_neumannd__talk147_v1.0.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:3667635:idcc_lightnight_metadata_neumannd__talk147_v1.0.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:3667635:idcc_lightnight_metadata_neumannd__talk147_v1.0.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/3667635/files-archive",
+          "archive_media": "https://zenodo.org/api/records/3667635/media-files-archive",
+          "latest": "https://zenodo.org/api/records/3667635/versions/latest",
+          "latest_html": "https://zenodo.org/records/3667635/latest",
+          "versions": "https://zenodo.org/api/records/3667635/versions",
+          "draft": "https://zenodo.org/api/records/3667635/draft",
+          "reserve_doi": "https://zenodo.org/api/records/3667635/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/3667635/access/links",
+          "access_grants": "https://zenodo.org/api/records/3667635/access/grants",
+          "access_users": "https://zenodo.org/api/records/3667635/access/users",
+          "access_request": "https://zenodo.org/api/records/3667635/access/request",
+          "access": "https://zenodo.org/api/records/3667635/access",
+          "communities": "https://zenodo.org/api/records/3667635/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/3667635/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/3667635/requests"
+        },
+        "updated": "2024-07-22T12:49:22.396260+00:00",
+        "recid": "3667635",
+        "revision": 8,
+        "files": [
+          {
+            "id": "74fb0844-eefb-462c-b49b-7f49a2a2edbd",
+            "key": "idcc_lightnight_metadata_neumannd__talk147_v1.0.pdf",
+            "size": 987131,
+            "checksum": "md5:6b2a8d23aa1244daaae03dd7f3b8f106",
+            "links": {
+              "self": "https://zenodo.org/api/records/3667635/files/idcc_lightnight_metadata_neumannd__talk147_v1.0.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "91099"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 170,
+          "unique_downloads": 160,
+          "views": 347,
+          "unique_views": 334,
+          "version_downloads": 170,
+          "version_unique_downloads": 160,
+          "version_unique_views": 334,
+          "version_views": 347
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2024-11-21T08:22:10.805530+00:00",
+        "modified": "2024-11-21T08:22:11.178419+00:00",
+        "id": 14195984,
+        "conceptrecid": "14195983",
+        "doi": "10.5281/zenodo.14195984",
+        "conceptdoi": "10.5281/zenodo.14195983",
+        "doi_url": "https://doi.org/10.5281/zenodo.14195984",
+        "metadata": {
+          "title": "D6.1 Data Management Plan",
+          "doi": "10.5281/zenodo.14195984",
+          "publication_date": "2023-08-02",
+          "description": "<p><span>The CAPABLE project will produce a number of data sets for internal and public use. This Data Management Plan (DMP) describes the data management life cycle for the data to be collected, processed and/or generated in the different WPs and Tasks of the project, including information regarding standards and metadata, data sharing and archiving and preservation. The aim of the plan is to ensure that data produced by the project will satisfy Horizon Europe data management guidelines. Care has been taken in the plan to describe how the data will be FAIR &mdash; Findable, Accessible, Interoperable and Re-usable. The plan also describes the data that will be generated by the CAPABLE project, whether and how they will be made accessible for verification and re-use, as well as how they will be curated and preserved.</span></p>\n<p><span>This DMP is organized in such a way as to highlight all the data to be collected, processed and/or generated in the different WPs and Tasks of the project.</span></p>\n<p><span>The DMP will be updated and revised throughout the project: the first update is foreseen in Month 18 and the second one in Month 30.</span></p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Euro-Mediterranean Center for Climate Change",
+              "affiliation": null
+            }
+          ],
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "14195983"
+                }
+              }
+            ]
+          }
+        },
+        "title": "D6.1 Data Management Plan",
+        "links": {
+          "self": "https://zenodo.org/api/records/14195984",
+          "self_html": "https://zenodo.org/records/14195984",
+          "preview_html": "https://zenodo.org/records/14195984?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.14195984",
+          "self_doi": "https://doi.org/10.5281/zenodo.14195984",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14195984",
+          "parent": "https://zenodo.org/api/records/14195983",
+          "parent_html": "https://zenodo.org/records/14195983",
+          "parent_doi": "https://doi.org/10.5281/zenodo.14195983",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14195983",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14195984/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14195984/sequence/default",
+          "files": "https://zenodo.org/api/records/14195984/files",
+          "media_files": "https://zenodo.org/api/records/14195984/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:14195984:CAPABLE_Data%20Management%20Plan_Final_2023.08.02_including_Annex1.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:14195984:CAPABLE_Data%20Management%20Plan_Final_2023.08.02_including_Annex1.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:14195984:CAPABLE_Data%20Management%20Plan_Final_2023.08.02_including_Annex1.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:14195984:CAPABLE_Data%20Management%20Plan_Final_2023.08.02_including_Annex1.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:14195984:CAPABLE_Data%20Management%20Plan_Final_2023.08.02_including_Annex1.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:14195984:CAPABLE_Data%20Management%20Plan_Final_2023.08.02_including_Annex1.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/14195984/files-archive",
+          "archive_media": "https://zenodo.org/api/records/14195984/media-files-archive",
+          "latest": "https://zenodo.org/api/records/14195984/versions/latest",
+          "latest_html": "https://zenodo.org/records/14195984/latest",
+          "versions": "https://zenodo.org/api/records/14195984/versions",
+          "draft": "https://zenodo.org/api/records/14195984/draft",
+          "reserve_doi": "https://zenodo.org/api/records/14195984/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/14195984/access/links",
+          "access_grants": "https://zenodo.org/api/records/14195984/access/grants",
+          "access_users": "https://zenodo.org/api/records/14195984/access/users",
+          "access_request": "https://zenodo.org/api/records/14195984/access/request",
+          "access": "https://zenodo.org/api/records/14195984/access",
+          "communities": "https://zenodo.org/api/records/14195984/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/14195984/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/14195984/requests"
+        },
+        "updated": "2024-11-21T08:22:11.178419+00:00",
+        "recid": "14195984",
+        "revision": 4,
+        "files": [
+          {
+            "id": "fcc92bcd-916f-4370-9e03-63f0ea3c431b",
+            "key": "CAPABLE_Data Management Plan_Final_2023.08.02_including_Annex1.pdf",
+            "size": 651819,
+            "checksum": "md5:9e721f741f6f4a3aed191f77e7f42eac",
+            "links": {
+              "self": "https://zenodo.org/api/records/14195984/files/CAPABLE_Data Management Plan_Final_2023.08.02_including_Annex1.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "1085540"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 17,
+          "unique_downloads": 17,
+          "views": 9,
+          "unique_views": 9,
+          "version_downloads": 17,
+          "version_unique_downloads": 17,
+          "version_unique_views": 9,
+          "version_views": 9
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2016-02-16T09:01:56+00:00",
+        "modified": "2024-08-04T05:24:13.984062+00:00",
+        "id": 34972,
+        "conceptrecid": "620140",
+        "doi": "10.5281/zenodo.34972",
+        "conceptdoi": "",
+        "doi_url": "https://doi.org/10.5281/zenodo.34972",
+        "metadata": {
+          "title": "Collecting and Preserving Local and Traditional Climate Knowledge",
+          "doi": "10.5281/zenodo.34972",
+          "publication_date": "2011-10-25",
+          "description": "<p>The Exchange for Local Observations and Knowledge of the Arctic (ELOKA)&nbsp;facilitates the collection, preservation, exchange, and use of local observations and knowledge of the Arctic. Local and Traditional Knowledge (LTK) provides rich information about the Arctic that complements data acquired via conventional quantitative data collection methods. ELOKA seeks to make LTK and community observations discoverable and accessible to community members, scientists, educators, policy makers, and the general public.&nbsp;</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Collins, Julia",
+              "affiliation": "National Snow and Ice Data Center"
+            },
+            {
+              "name": "Pulsifer, Peter L.",
+              "affiliation": "National Snow and Ice Data Center"
+            },
+            {
+              "name": "Gearheard, Shari",
+              "affiliation": "National Snow and Ice Data Center"
+            }
+          ],
+          "keywords": [
+            "local knowledge",
+            "Arctic",
+            "climate"
+          ],
+          "resource_type": {
+            "title": "Poster",
+            "type": "poster"
+          },
+          "meeting": {
+            "title": "World Climate Research Programme",
+            "acronym": "WCRP"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "620140"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Collecting and Preserving Local and Traditional Climate Knowledge",
+        "links": {
+          "self": "https://zenodo.org/api/records/34972",
+          "self_html": "https://zenodo.org/records/34972",
+          "preview_html": "https://zenodo.org/records/34972?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.34972",
+          "self_doi": "https://doi.org/10.5281/zenodo.34972",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.34972",
+          "parent": "https://zenodo.org/api/records/620140",
+          "parent_html": "https://zenodo.org/records/620140",
+          "parent_doi": "https://doi.org/",
+          "parent_doi_html": "https://zenodo.org/doi/",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:34972/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:34972/sequence/default",
+          "files": "https://zenodo.org/api/records/34972/files",
+          "media_files": "https://zenodo.org/api/records/34972/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:34972:wcrp.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:34972:wcrp.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:34972:wcrp.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:34972:wcrp.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:34972:wcrp.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:34972:wcrp.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/34972/files-archive",
+          "archive_media": "https://zenodo.org/api/records/34972/media-files-archive",
+          "latest": "https://zenodo.org/api/records/34972/versions/latest",
+          "latest_html": "https://zenodo.org/records/34972/latest",
+          "versions": "https://zenodo.org/api/records/34972/versions",
+          "draft": "https://zenodo.org/api/records/34972/draft",
+          "reserve_doi": "https://zenodo.org/api/records/34972/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/34972/access/links",
+          "access_grants": "https://zenodo.org/api/records/34972/access/grants",
+          "access_users": "https://zenodo.org/api/records/34972/access/users",
+          "access_request": "https://zenodo.org/api/records/34972/access/request",
+          "access": "https://zenodo.org/api/records/34972/access",
+          "communities": "https://zenodo.org/api/records/34972/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/34972/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/34972/requests"
+        },
+        "updated": "2024-08-04T05:24:13.984062+00:00",
+        "recid": "34972",
+        "revision": 12,
+        "files": [
+          {
+            "id": "a3865b2d-687e-48f5-828c-5f437089a219",
+            "key": "wcrp.pdf",
+            "size": 1392775,
+            "checksum": "md5:5c876571e98b3c843c6a7f86366cc03b",
+            "links": {
+              "self": "https://zenodo.org/api/records/34972/files/wcrp.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "19523"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 82,
+          "unique_downloads": 78,
+          "views": 95,
+          "unique_views": 91,
+          "version_downloads": 82,
+          "version_unique_downloads": 78,
+          "version_unique_views": 91,
+          "version_views": 95
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2014-04-29T12:47:52+00:00",
+        "modified": "2020-01-24T19:24:53.630274+00:00",
+        "id": 7531,
+        "conceptrecid": "642125",
+        "doi": "10.5281/zenodo.7531",
+        "conceptdoi": "",
+        "doi_url": "https://doi.org/10.5281/zenodo.7531",
+        "metadata": {
+          "title": "C3-EURO4M-MEDARE Mediterranean historical climate data",
+          "doi": "10.5281/zenodo.7531",
+          "publication_date": "2013-11-04",
+          "description": "<p>Historical surface climate data files and meta-data for stations in Mediterranean North Africa and Middle East areas (1852-2008)</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Centre for Climate Change / URV",
+              "affiliation": "Centre for Climate Change, Department of Geography, University Rovira i Virgili, Tortosa, Spain"
+            }
+          ],
+          "keywords": [
+            "historical climate data rescue",
+            "meteorological stations",
+            "daily maximum temperature",
+            "daily minimum temperature",
+            "daily precipitation",
+            "hourly air pressure",
+            "Mediterranean",
+            "North Africa",
+            "Middle East"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.1002/gdj3.12",
+              "relation": "isCitedBy",
+              "scheme": "doi"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-by-sa-4.0"
+          },
+          "grants": [
+            {
+              "code": "242093",
+              "internal_id": "10.13039/501100000780::242093",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "EUropean Reanalysis and Observations for Monitoring",
+              "acronym": "EURO4M",
+              "program": "FP7-SPACE",
+              "url": "https://cordis.europa.eu/projects/242093"
+            }
+          ],
+          "communities": [
+            {
+              "id": "eu"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "642125"
+                }
+              }
+            ]
+          },
+          "notes": "The data files are in ASCII format. This dataset is cited in Brunet, M., Gilabert, A. and Jones, P. (2014),  A historical climate dataset from surface station observations in Mediterranean North Africa and Middle East areas. Geoscience Data Journal. DOI: 10.1002/gdj3 .12"
+        },
+        "title": "C3-EURO4M-MEDARE Mediterranean historical climate data",
+        "links": {
+          "self": "https://zenodo.org/api/records/7531",
+          "self_html": "https://zenodo.org/records/7531",
+          "preview_html": "https://zenodo.org/records/7531?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.7531",
+          "self_doi": "https://doi.org/10.5281/zenodo.7531",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7531",
+          "parent": "https://zenodo.org/api/records/642125",
+          "parent_html": "https://zenodo.org/records/642125",
+          "parent_doi": "https://doi.org/",
+          "parent_doi_html": "https://zenodo.org/doi/",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7531/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7531/sequence/default",
+          "files": "https://zenodo.org/api/records/7531/files",
+          "media_files": "https://zenodo.org/api/records/7531/media-files",
+          "archive": "https://zenodo.org/api/records/7531/files-archive",
+          "archive_media": "https://zenodo.org/api/records/7531/media-files-archive",
+          "latest": "https://zenodo.org/api/records/7531/versions/latest",
+          "latest_html": "https://zenodo.org/records/7531/latest",
+          "versions": "https://zenodo.org/api/records/7531/versions",
+          "draft": "https://zenodo.org/api/records/7531/draft",
+          "reserve_doi": "https://zenodo.org/api/records/7531/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/7531/access/links",
+          "access_grants": "https://zenodo.org/api/records/7531/access/grants",
+          "access_users": "https://zenodo.org/api/records/7531/access/users",
+          "access_request": "https://zenodo.org/api/records/7531/access/request",
+          "access": "https://zenodo.org/api/records/7531/access",
+          "communities": "https://zenodo.org/api/records/7531/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/7531/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/7531/requests"
+        },
+        "updated": "2020-01-24T19:24:53.630274+00:00",
+        "recid": "7531",
+        "revision": 10,
+        "files": [
+          {
+            "id": "d3f8aa2a-3820-4b2b-bae3-569763321029",
+            "key": "C3-EURO4M-MEDARE_TX.txt",
+            "size": 24034192,
+            "checksum": "md5:fb8233799357ccad328475979281bc6a",
+            "links": {
+              "self": "https://zenodo.org/api/records/7531/files/C3-EURO4M-MEDARE_TX.txt/content"
+            }
+          },
+          {
+            "id": "59b62149-9f8e-4272-baeb-43932127856c",
+            "key": "C3-EURO4M-MEDARE_RR.txt",
+            "size": 25292820,
+            "checksum": "md5:beb8f2ec79576925644c7b3d89870b2b",
+            "links": {
+              "self": "https://zenodo.org/api/records/7531/files/C3-EURO4M-MEDARE_RR.txt/content"
+            }
+          },
+          {
+            "id": "1675262c-3959-4127-a68e-f1b2c1506c79",
+            "key": "C3-EURO4M-MEDARE_documentingQC.txt",
+            "size": 715486,
+            "checksum": "md5:f51d01ef5fb31e8086c93a7e294012c4",
+            "links": {
+              "self": "https://zenodo.org/api/records/7531/files/C3-EURO4M-MEDARE_documentingQC.txt/content"
+            }
+          },
+          {
+            "id": "13d0dd6a-d8af-4f81-8d15-3c4d3cbfb5fb",
+            "key": "C3-EURO4M-MEDARE_TN.txt",
+            "size": 23838154,
+            "checksum": "md5:062b95329b365b2698894b5f7897ba48",
+            "links": {
+              "self": "https://zenodo.org/api/records/7531/files/C3-EURO4M-MEDARE_TN.txt/content"
+            }
+          },
+          {
+            "id": "084e6e60-4694-4a69-b2a8-a0f3b8c96b9b",
+            "key": "C3-EURO4M-MEDARE_PP.txt",
+            "size": 47836052,
+            "checksum": "md5:9b46ce0c92392198f231582156533be8",
+            "links": {
+              "self": "https://zenodo.org/api/records/7531/files/C3-EURO4M-MEDARE_PP.txt/content"
+            }
+          },
+          {
+            "id": "bd3cde66-a56b-4ea8-8d4f-e4be0946161e",
+            "key": "C3-EURO4M-MEDARE_readme.txt",
+            "size": 22710,
+            "checksum": "md5:1e5ebbf5596bf0fb922ab3251a1353bd",
+            "links": {
+              "self": "https://zenodo.org/api/records/7531/files/C3-EURO4M-MEDARE_readme.txt/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "1739"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 532,
+          "unique_downloads": 355,
+          "views": 1449,
+          "unique_views": 1382,
+          "version_downloads": 502,
+          "version_unique_downloads": 352,
+          "version_unique_views": 1379,
+          "version_views": 1446
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2023-08-24T13:37:59.563701+00:00",
+        "modified": "2023-08-25T14:27:06.234159+00:00",
+        "id": 8279575,
+        "conceptrecid": "8279574",
+        "doi": "10.5281/zenodo.8279575",
+        "conceptdoi": "10.5281/zenodo.8279574",
+        "doi_url": "https://doi.org/10.5281/zenodo.8279575",
+        "metadata": {
+          "title": "Outputs of the Jupyter Notebook - Deep learning and variational inversion to quantify and attribute climate change (CIRC23)",
+          "doi": "10.5281/zenodo.8279575",
+          "publication_date": "2023-08-24",
+          "description": "<p>The dataset contains the outputs of the notebook &quot;Deep learning and variational inversion to quantify and attribute climate change (CIRC23)&quot;&nbsp;published in The Environmental Data Science Book.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Environmental Data Science book Community",
+              "affiliation": null
+            }
+          ],
+          "keywords": [
+            "environmental data science",
+            "climate science",
+            "modelling",
+            "reproducibility challenge"
+          ],
+          "version": "0.0.1",
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "the-environmental-ds-community"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "8279574"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Outputs of the Jupyter Notebook - Deep learning and variational inversion to quantify and attribute climate change (CIRC23)",
+        "links": {
+          "self": "https://zenodo.org/api/records/8279575",
+          "self_html": "https://zenodo.org/records/8279575",
+          "preview_html": "https://zenodo.org/records/8279575?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.8279575",
+          "self_doi": "https://doi.org/10.5281/zenodo.8279575",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8279575",
+          "parent": "https://zenodo.org/api/records/8279574",
+          "parent_html": "https://zenodo.org/records/8279574",
+          "parent_doi": "https://doi.org/10.5281/zenodo.8279574",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8279574",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8279575/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8279575/sequence/default",
+          "files": "https://zenodo.org/api/records/8279575/files",
+          "media_files": "https://zenodo.org/api/records/8279575/media-files",
+          "archive": "https://zenodo.org/api/records/8279575/files-archive",
+          "archive_media": "https://zenodo.org/api/records/8279575/media-files-archive",
+          "latest": "https://zenodo.org/api/records/8279575/versions/latest",
+          "latest_html": "https://zenodo.org/records/8279575/latest",
+          "versions": "https://zenodo.org/api/records/8279575/versions",
+          "draft": "https://zenodo.org/api/records/8279575/draft",
+          "reserve_doi": "https://zenodo.org/api/records/8279575/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/8279575/access/links",
+          "access_grants": "https://zenodo.org/api/records/8279575/access/grants",
+          "access_users": "https://zenodo.org/api/records/8279575/access/users",
+          "access_request": "https://zenodo.org/api/records/8279575/access/request",
+          "access": "https://zenodo.org/api/records/8279575/access",
+          "communities": "https://zenodo.org/api/records/8279575/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/8279575/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/8279575/requests"
+        },
+        "updated": "2023-08-25T14:27:06.234159+00:00",
+        "recid": "8279575",
+        "revision": 2,
+        "files": [
+          {
+            "id": "5c3142de-8a06-4fda-8a2f-d0af7bd948c6",
+            "key": "results.zip",
+            "size": 1080658,
+            "checksum": "md5:609cdda062ed01a8a44d2393bee510d7",
+            "links": {
+              "self": "https://zenodo.org/api/records/8279575/files/results.zip/content"
+            }
+          },
+          {
+            "id": "28a94161-e3af-4874-8007-bf57322d3116",
+            "key": "figures.zip",
+            "size": 1930134,
+            "checksum": "md5:b9a99fb80a2fafd2a4cbbfce029433fb",
+            "links": {
+              "self": "https://zenodo.org/api/records/8279575/files/figures.zip/content"
+            }
+          },
+          {
+            "id": "57a669be-e288-4f76-b554-1a886f0e4ce6",
+            "key": "models.zip",
+            "size": 11809,
+            "checksum": "md5:c19b16cd868eb26c3cdb7146ffeb6c54",
+            "links": {
+              "self": "https://zenodo.org/api/records/8279575/files/models.zip/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "266370"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 28,
+          "unique_downloads": 19,
+          "views": 112,
+          "unique_views": 111,
+          "version_downloads": 28,
+          "version_unique_downloads": 19,
+          "version_unique_views": 111,
+          "version_views": 112
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2020-07-23T09:08:05.347366+00:00",
+        "modified": "2020-07-23T12:59:24.637745+00:00",
+        "id": 3952159,
+        "conceptrecid": "3952158",
+        "doi": "10.5281/zenodo.3952159",
+        "conceptdoi": "10.5281/zenodo.3952158",
+        "doi_url": "https://doi.org/10.5281/zenodo.3952159",
+        "metadata": {
+          "title": "High-resolution gridded climate data for Europe based on bias-corrected EURO-CORDEX: the ECLIPS-2.0 dataset",
+          "doi": "10.5281/zenodo.3952159",
+          "publication_date": "2020-07-20",
+          "description": "<p>We developed a new climate dataset for Europe referred to as ECLIPS (European CLimate Index ProjectionS), which contains gridded data for 80 annual, seasonal, and monthly climate variables for two past (1961-1990, 1991-2010) and five future periods (2011-2020, 2021-2140, 2041-2060, 2061-2080, 2081-2100). The future data are based on five Regional Climate Models (RCMs)driven by two greenhouse gas concentration scenarios, RCP 4.5 and 8.5.</p>\n\n<p>The&nbsp; ECLIPS dataset has two versions; ECLIPS 1.1 contains data with spatial resolution of 0.11&deg; &times; 0.11&deg;, which is the resolution of underlying RCMs. ECLIPS1.1 is available at <a href=\"https://doi.org/10.5281/zenodo.1181780\">https://doi.org/10.5281/zenodo.1181780</a>.</p>\n\n<p>The ECLIPS 2.0 presented here contains a subset of climate indices of ECLIPS 1.1, downscaled to the resolution of &nbsp;30 arcsec by means of the delta correction approach. Both ECLIPS versions were evaluated by testing their relationship with independent station data from the European Climate Assessment (ECA) dataset. Correlations of the empirical testing data to ECLIPS 1.1 ranged from 0.63 to 0.78,and to ECLIPS 2.0 from 0.78 to 0.93. suggesting substantial improvement due to downscaling. A large number of climate projections, time periods and indices as well as the availability of these data at two different spatial resolutions can support diverse studies across a range of disciplines and thus extend our understanding of climate-sensitive dynamics of many social-ecological systems</p>\n\n<p>The zipfile ECLIPS2.0 contains 5 folders with subfolders</p>\n\n<p>File naming system for the subfolders / folder are&nbsp; as follows</p>\n\n<p>ECLIPS2.0_196191: past climate 1961-1990: &lt; climate index&gt;&lt;period&gt;</p>\n\n<p>ECLIPS2.0_199110: past climate 1991-2010 &lt; climate index&gt;&lt;period&gt;</p>\n\n<p>ECLIPS2.0_45 : future climate RCP4.5 &lt;subfolder-Model name&gt; &lt; climate index&gt;&lt;period&gt;</p>\n\n<p>ECLIPS2.0_85 : future climate RCP8.5 &lt;subfolder-Model name&gt; &lt; climate index&gt;&lt;period&gt;</p>\n\n<p>Incase zpfile reader 7zip is not available, please install from here:&nbsp;<a href=\"https://www.7-zip.org/\">https://www.7-zip.org/</a></p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Chakraborty Debojyoti",
+              "affiliation": "Austrian Research Centre for Forests, Vienna",
+              "orcid": "0000-0002-7128-2688"
+            },
+            {
+              "name": "Dobor laura",
+              "affiliation": "Czech University of Life Sciences, Prague"
+            },
+            {
+              "name": "Zolles Anita",
+              "affiliation": "Austrian Research Centre for Forests, Vienna"
+            },
+            {
+              "name": "Hlásny Tomáš",
+              "affiliation": "Czech University of Life Sciences, Prague"
+            },
+            {
+              "name": "Schueler Silvio",
+              "affiliation": "Austrian Research Centre for Forests, Vienna",
+              "orcid": "0000-0003-0155-5692"
+            }
+          ],
+          "keywords": [
+            "Bias corrected,",
+            "EURO-CORDEX",
+            "30-arc sec",
+            "Climate data"
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "genfored"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "3952158"
+                }
+              }
+            ]
+          },
+          "notes": "File naming system is as follows\nECLIPS2.0_196191: past climate 1961-1990: &lt; climate index&gt;\nECLIPS2.0_199110: past climate 1991-2010 &lt; climate index&gt;\nECLIPS2.0_45 : future climate RCP4.5  &lt; climate index&gt;\nECLIPS2.0_85 : future climate RCP8.5  &lt; climate index&gt;"
+        },
+        "title": "High-resolution gridded climate data for Europe based on bias-corrected EURO-CORDEX: the ECLIPS-2.0 dataset",
+        "links": {
+          "self": "https://zenodo.org/api/records/3952159",
+          "self_html": "https://zenodo.org/records/3952159",
+          "preview_html": "https://zenodo.org/records/3952159?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.3952159",
+          "self_doi": "https://doi.org/10.5281/zenodo.3952159",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3952159",
+          "parent": "https://zenodo.org/api/records/3952158",
+          "parent_html": "https://zenodo.org/records/3952158",
+          "parent_doi": "https://doi.org/10.5281/zenodo.3952158",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3952158",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3952159/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3952159/sequence/default",
+          "files": "https://zenodo.org/api/records/3952159/files",
+          "media_files": "https://zenodo.org/api/records/3952159/media-files",
+          "archive": "https://zenodo.org/api/records/3952159/files-archive",
+          "archive_media": "https://zenodo.org/api/records/3952159/media-files-archive",
+          "latest": "https://zenodo.org/api/records/3952159/versions/latest",
+          "latest_html": "https://zenodo.org/records/3952159/latest",
+          "versions": "https://zenodo.org/api/records/3952159/versions",
+          "draft": "https://zenodo.org/api/records/3952159/draft",
+          "reserve_doi": "https://zenodo.org/api/records/3952159/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/3952159/access/links",
+          "access_grants": "https://zenodo.org/api/records/3952159/access/grants",
+          "access_users": "https://zenodo.org/api/records/3952159/access/users",
+          "access_request": "https://zenodo.org/api/records/3952159/access/request",
+          "access": "https://zenodo.org/api/records/3952159/access",
+          "communities": "https://zenodo.org/api/records/3952159/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/3952159/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/3952159/requests"
+        },
+        "updated": "2020-07-23T12:59:24.637745+00:00",
+        "recid": "3952159",
+        "revision": 3,
+        "files": [
+          {
+            "id": "e587f7b4-8b9a-4fe4-bec6-4c9515ec90b1",
+            "key": "ECLIPS2.0.7z",
+            "size": 87186517213,
+            "checksum": "md5:b22a88ea40685a149498de80e11e7fba",
+            "links": {
+              "self": "https://zenodo.org/api/records/3952159/files/ECLIPS2.0.7z/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "92446"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 1212,
+          "unique_downloads": 602,
+          "views": 2556,
+          "unique_views": 2303,
+          "version_downloads": 1209,
+          "version_unique_downloads": 599,
+          "version_unique_views": 2293,
+          "version_views": 2546
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2020-08-21T20:21:27.729725+00:00",
+        "modified": "2024-07-19T16:47:28.726124+00:00",
+        "id": 3994272,
+        "conceptrecid": "3994271",
+        "doi": "10.5281/zenodo.3994272",
+        "conceptdoi": "10.5281/zenodo.3994271",
+        "doi_url": "https://doi.org/10.5281/zenodo.3994272",
+        "metadata": {
+          "title": "Multilingual Structured Climate Research Data in Wikidata - The Community Perspective",
+          "doi": "10.5281/zenodo.3994272",
+          "publication_date": "2020-08-21",
+          "description": "<p>This repo hosts a presentation &quot;Multilingual Structured Climate Research Data in Wikidata - The Community Perspective&quot;, which is a contribution to the Workshop &quot;<a href=\"https://wcr.ethz.ch/news-and-events/events/workshop--data-science-in-climate-and-climate-impact-research-.html\">Data Science in Climate and Climate Impact Research</a>&quot; taking place on 20-21 August 2020 in Zurich and online.</p>\n\n<p>It is the first part of two complementary presentations - the second part is available via <a href=\"https://doi.org/10.5281/zenodo.3994266\">https://doi.org/10.5281/zenodo.3994266</a> under the title &quot;Multilingual Structured Climate Research Data in Wikidata - The Data Perspective&quot;.</p>\n\n<p>The presentation is provided here in the form of slides in three file formats. The slides have been prepared and presented using Google slides, from which they were exported as .pptx, .odp and .pdf, which explains some slight differences in formatting.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Sarasua, Cristina",
+              "affiliation": "University of Zurich",
+              "orcid": "0000-0002-2076-9584"
+            },
+            {
+              "name": "Mietchen, Daniel",
+              "affiliation": "School of Data Science, University of Virginia, USA",
+              "orcid": "0000-0001-9488-1870"
+            }
+          ],
+          "keywords": [
+            "Wikidata",
+            "Linked open data",
+            "FAIR data",
+            "Collaboration",
+            "Data science",
+            "Climate research",
+            "Community curation",
+            "SPARQL"
+          ],
+          "subjects": [
+            {
+              "term": "Wikidata",
+              "identifier": "https://www.wikidata.org/wiki/Q2013",
+              "scheme": "url"
+            },
+            {
+              "term": "Hurricane Katrina",
+              "identifier": "https://www.wikidata.org/wiki/Q16422",
+              "scheme": "url"
+            },
+            {
+              "term": "data sharing",
+              "identifier": "https://www.wikidata.org/wiki/Q5227350",
+              "scheme": "url"
+            },
+            {
+              "term": "FAIR data",
+              "identifier": "https://www.wikidata.org/wiki/Q29032648",
+              "scheme": "url"
+            },
+            {
+              "term": "climate change",
+              "identifier": "https://www.wikidata.org/wiki/Q125928",
+              "scheme": "url"
+            },
+            {
+              "term": "Workshop on Data Science in Climate and Climate Impact Research",
+              "identifier": "https://www.wikidata.org/wiki/Q98457439",
+              "scheme": "url"
+            },
+            {
+              "term": "climate impact research",
+              "identifier": "https://www.wikidata.org/wiki/Q13560809",
+              "scheme": "url"
+            },
+            {
+              "term": "climatology",
+              "identifier": "https://www.wikidata.org/wiki/Q52139",
+              "scheme": "url"
+            },
+            {
+              "term": "Linked Open Data",
+              "identifier": "https://www.wikidata.org/wiki/Q18692990",
+              "scheme": "url"
+            }
+          ],
+          "language": "eng",
+          "resource_type": {
+            "title": "Presentation",
+            "type": "presentation"
+          },
+          "meeting": {
+            "title": "Workshop \"Data Science in Climate and Climate Impact Research\"",
+            "dates": "20-21 August 2020",
+            "place": "Zurich",
+            "url": "https://wcr.ethz.ch/news-and-events/events/workshop--data-science-in-climate-and-climate-impact-research-.html"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "wikimedia"
+            },
+            {
+              "id": "wiki4r"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "3994271"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Multilingual Structured Climate Research Data in Wikidata - The Community Perspective",
+        "links": {
+          "self": "https://zenodo.org/api/records/3994272",
+          "self_html": "https://zenodo.org/records/3994272",
+          "preview_html": "https://zenodo.org/records/3994272?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.3994272",
+          "self_doi": "https://doi.org/10.5281/zenodo.3994272",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3994272",
+          "parent": "https://zenodo.org/api/records/3994271",
+          "parent_html": "https://zenodo.org/records/3994271",
+          "parent_doi": "https://doi.org/10.5281/zenodo.3994271",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3994271",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3994272/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3994272/sequence/default",
+          "files": "https://zenodo.org/api/records/3994272/files",
+          "media_files": "https://zenodo.org/api/records/3994272/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:3994272:Sarasua%20and%20Mietchen%20-%20Multilingual%20Structured%20Climate%20Research%20Data%20in%20Wikidata%2C%20The%20Community%20Perspective.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:3994272:Sarasua%20and%20Mietchen%20-%20Multilingual%20Structured%20Climate%20Research%20Data%20in%20Wikidata%2C%20The%20Community%20Perspective.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:3994272:Sarasua%20and%20Mietchen%20-%20Multilingual%20Structured%20Climate%20Research%20Data%20in%20Wikidata%2C%20The%20Community%20Perspective.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:3994272:Sarasua%20and%20Mietchen%20-%20Multilingual%20Structured%20Climate%20Research%20Data%20in%20Wikidata%2C%20The%20Community%20Perspective.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:3994272:Sarasua%20and%20Mietchen%20-%20Multilingual%20Structured%20Climate%20Research%20Data%20in%20Wikidata%2C%20The%20Community%20Perspective.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:3994272:Sarasua%20and%20Mietchen%20-%20Multilingual%20Structured%20Climate%20Research%20Data%20in%20Wikidata%2C%20The%20Community%20Perspective.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/3994272/files-archive",
+          "archive_media": "https://zenodo.org/api/records/3994272/media-files-archive",
+          "latest": "https://zenodo.org/api/records/3994272/versions/latest",
+          "latest_html": "https://zenodo.org/records/3994272/latest",
+          "versions": "https://zenodo.org/api/records/3994272/versions",
+          "draft": "https://zenodo.org/api/records/3994272/draft",
+          "reserve_doi": "https://zenodo.org/api/records/3994272/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/3994272/access/links",
+          "access_grants": "https://zenodo.org/api/records/3994272/access/grants",
+          "access_users": "https://zenodo.org/api/records/3994272/access/users",
+          "access_request": "https://zenodo.org/api/records/3994272/access/request",
+          "access": "https://zenodo.org/api/records/3994272/access",
+          "communities": "https://zenodo.org/api/records/3994272/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/3994272/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/3994272/requests"
+        },
+        "updated": "2024-07-19T16:47:28.726124+00:00",
+        "recid": "3994272",
+        "revision": 7,
+        "files": [
+          {
+            "id": "211446b3-7ba3-4f53-9db2-35ad070dbf1f",
+            "key": "Sarasua and Mietchen - Multilingual Structured Climate Research Data in Wikidata, The Community Perspective.pdf",
+            "size": 5667932,
+            "checksum": "md5:2670d41c17511e9e713d802ac62f90c6",
+            "links": {
+              "self": "https://zenodo.org/api/records/3994272/files/Sarasua and Mietchen - Multilingual Structured Climate Research Data in Wikidata, The Community Perspective.pdf/content"
+            }
+          },
+          {
+            "id": "4e05bc38-cf8b-4299-ba10-3a2c156ad38b",
+            "key": "Sarasua and Mietchen - Multilingual Structured Climate Research Data in Wikidata, The Community Perspective.pptx",
+            "size": 12050323,
+            "checksum": "md5:176c338fc3b6c5f64213490185bddd14",
+            "links": {
+              "self": "https://zenodo.org/api/records/3994272/files/Sarasua and Mietchen - Multilingual Structured Climate Research Data in Wikidata, The Community Perspective.pptx/content"
+            }
+          },
+          {
+            "id": "70ae563c-5aba-4cc3-9c83-ef43213a1860",
+            "key": "Sarasua and Mietchen - Multilingual Structured Climate Research Data in Wikidata, The Community Perspective.odp",
+            "size": 11718632,
+            "checksum": "md5:48e571a58fc9db44068ef4c58b28894a",
+            "links": {
+              "self": "https://zenodo.org/api/records/3994272/files/Sarasua and Mietchen - Multilingual Structured Climate Research Data in Wikidata, The Community Perspective.odp/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "3645"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 152,
+          "unique_downloads": 142,
+          "views": 689,
+          "unique_views": 629,
+          "version_downloads": 152,
+          "version_unique_downloads": 142,
+          "version_unique_views": 628,
+          "version_views": 688
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2023-10-31T18:54:02.211151+00:00",
+        "modified": "2024-07-11T00:22:17.422928+00:00",
+        "id": 10059282,
+        "conceptrecid": "10059281",
+        "doi": "10.5281/zenodo.10059282",
+        "conceptdoi": "10.5281/zenodo.10059281",
+        "doi_url": "https://doi.org/10.5281/zenodo.10059282",
+        "metadata": {
+          "title": "TG-Data Recommendations for AR7",
+          "doi": "10.5281/zenodo.10059282",
+          "publication_date": "2023-10-31",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Intergovernmental Panel on Climate Change",
+              "affiliation": "TG-Data"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "tg-data"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "10059281"
+                }
+              }
+            ]
+          }
+        },
+        "title": "TG-Data Recommendations for AR7",
+        "links": {
+          "self": "https://zenodo.org/api/records/10059282",
+          "self_html": "https://zenodo.org/records/10059282",
+          "preview_html": "https://zenodo.org/records/10059282?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.10059282",
+          "self_doi": "https://doi.org/10.5281/zenodo.10059282",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10059282",
+          "parent": "https://zenodo.org/api/records/10059281",
+          "parent_html": "https://zenodo.org/records/10059281",
+          "parent_doi": "https://doi.org/10.5281/zenodo.10059281",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10059281",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10059282/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10059282/sequence/default",
+          "files": "https://zenodo.org/api/records/10059282/files",
+          "media_files": "https://zenodo.org/api/records/10059282/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:10059282:IPCC_TG-Data_Rec_AR7.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:10059282:IPCC_TG-Data_Rec_AR7.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:10059282:IPCC_TG-Data_Rec_AR7.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:10059282:IPCC_TG-Data_Rec_AR7.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:10059282:IPCC_TG-Data_Rec_AR7.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:10059282:IPCC_TG-Data_Rec_AR7.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/10059282/files-archive",
+          "archive_media": "https://zenodo.org/api/records/10059282/media-files-archive",
+          "latest": "https://zenodo.org/api/records/10059282/versions/latest",
+          "latest_html": "https://zenodo.org/records/10059282/latest",
+          "versions": "https://zenodo.org/api/records/10059282/versions",
+          "draft": "https://zenodo.org/api/records/10059282/draft",
+          "reserve_doi": "https://zenodo.org/api/records/10059282/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/10059282/access/links",
+          "access_grants": "https://zenodo.org/api/records/10059282/access/grants",
+          "access_users": "https://zenodo.org/api/records/10059282/access/users",
+          "access_request": "https://zenodo.org/api/records/10059282/access/request",
+          "access": "https://zenodo.org/api/records/10059282/access",
+          "communities": "https://zenodo.org/api/records/10059282/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/10059282/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/10059282/requests"
+        },
+        "updated": "2024-07-11T00:22:17.422928+00:00",
+        "recid": "10059282",
+        "revision": 6,
+        "files": [
+          {
+            "id": "8f4475f5-6234-42ed-a88b-6b57ded0504c",
+            "key": "IPCC_TG-Data_Rec_AR7.pdf",
+            "size": 99516,
+            "checksum": "md5:522d2309e29edbac95afe72347657077",
+            "links": {
+              "self": "https://zenodo.org/api/records/10059282/files/IPCC_TG-Data_Rec_AR7.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "43029"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 386,
+          "unique_downloads": 325,
+          "views": 550,
+          "unique_views": 523,
+          "version_downloads": 386,
+          "version_unique_downloads": 325,
+          "version_unique_views": 523,
+          "version_views": 550
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2016-02-16T09:56:59+00:00",
+        "modified": "2024-08-04T05:26:45.680905+00:00",
+        "id": 34377,
+        "conceptrecid": "619703",
+        "doi": "10.5281/zenodo.34377",
+        "conceptdoi": "",
+        "doi_url": "https://doi.org/10.5281/zenodo.34377",
+        "metadata": {
+          "title": "Trusted Data Services to Support Climate Change Research",
+          "doi": "10.5281/zenodo.34377",
+          "publication_date": "2015-07-06",
+          "description": "<p>Abstract booklet of the side event convened by the World Data System ahead of the premier climate science conference leading to COP21.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Sandy Harrison",
+              "affiliation": "World Data System Scientific Committee, University of Reading"
+            },
+            {
+              "name": "Erik Kjellström",
+              "affiliation": "Rossby Centre, Swedish Meteorological and Hydrological Institute"
+            },
+            {
+              "name": "Barbara Ryan",
+              "affiliation": "Group on Earth Observations"
+            },
+            {
+              "name": "Julian Meyer-Arnek",
+              "affiliation": "Earth Observation Centre at the German Aerospace Center"
+            },
+            {
+              "name": "Giulia Ajmone Marsan",
+              "affiliation": "Organisation for Economic Co-operation and Development"
+            },
+            {
+              "name": "Robert Chen",
+              "affiliation": "University of Columbia"
+            },
+            {
+              "name": "Marko Komac",
+              "affiliation": "OneGeology"
+            },
+            {
+              "name": "Michael Böttinger",
+              "affiliation": "World Data Centre Climate/DKRZ"
+            },
+            {
+              "name": "Mark Parsons",
+              "affiliation": "Research Data Alliance"
+            },
+            {
+              "name": "Juanle Wang",
+              "affiliation": "World Data Centre for Renewable Resources of the Environment"
+            },
+            {
+              "name": "Lynn Yarmey",
+              "affiliation": "US National Snow and Ice Data Centre"
+            }
+          ],
+          "keywords": [
+            "Climate change",
+            "Data stewardship",
+            "Open data",
+            "Open science"
+          ],
+          "resource_type": {
+            "title": "Conference paper",
+            "type": "publication",
+            "subtype": "conferencepaper"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "icsu_wds"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "619703"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Trusted Data Services to Support Climate Change Research",
+        "links": {
+          "self": "https://zenodo.org/api/records/34377",
+          "self_html": "https://zenodo.org/records/34377",
+          "preview_html": "https://zenodo.org/records/34377?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.34377",
+          "self_doi": "https://doi.org/10.5281/zenodo.34377",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.34377",
+          "parent": "https://zenodo.org/api/records/619703",
+          "parent_html": "https://zenodo.org/records/619703",
+          "parent_doi": "https://doi.org/",
+          "parent_doi_html": "https://zenodo.org/doi/",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:34377/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:34377/sequence/default",
+          "files": "https://zenodo.org/api/records/34377/files",
+          "media_files": "https://zenodo.org/api/records/34377/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:34377:WDS_Side_Event_CFCC2015_Booklet.pdf/full/^10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:34377:WDS_Side_Event_CFCC2015_Booklet.pdf/full/^50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:34377:WDS_Side_Event_CFCC2015_Booklet.pdf/full/^100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:34377:WDS_Side_Event_CFCC2015_Booklet.pdf/full/^250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:34377:WDS_Side_Event_CFCC2015_Booklet.pdf/full/^750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:34377:WDS_Side_Event_CFCC2015_Booklet.pdf/full/^1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/34377/files-archive",
+          "archive_media": "https://zenodo.org/api/records/34377/media-files-archive",
+          "latest": "https://zenodo.org/api/records/34377/versions/latest",
+          "latest_html": "https://zenodo.org/records/34377/latest",
+          "versions": "https://zenodo.org/api/records/34377/versions",
+          "draft": "https://zenodo.org/api/records/34377/draft",
+          "reserve_doi": "https://zenodo.org/api/records/34377/draft/pids/doi",
+          "access_links": "https://zenodo.org/api/records/34377/access/links",
+          "access_grants": "https://zenodo.org/api/records/34377/access/grants",
+          "access_users": "https://zenodo.org/api/records/34377/access/users",
+          "access_request": "https://zenodo.org/api/records/34377/access/request",
+          "access": "https://zenodo.org/api/records/34377/access",
+          "communities": "https://zenodo.org/api/records/34377/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/34377/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/34377/requests"
+        },
+        "updated": "2024-08-04T05:26:45.680905+00:00",
+        "recid": "34377",
+        "revision": 13,
+        "files": [
+          {
+            "id": "42f5f4d2-6cc7-41c9-989c-8023030f4764",
+            "key": "WDS_Side_Event_CFCC2015_Booklet.pdf",
+            "size": 949145,
+            "checksum": "md5:e7d893280aaca1aa539b5f640891fa45",
+            "links": {
+              "self": "https://zenodo.org/api/records/34377/files/WDS_Side_Event_CFCC2015_Booklet.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "14522"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 71,
+          "unique_downloads": 69,
+          "views": 75,
+          "unique_views": 70,
+          "version_downloads": 71,
+          "version_unique_downloads": 69,
+          "version_unique_views": 70,
+          "version_views": 75
+        },
+        "state": "done",
+        "submitted": true
+      }
+    ],
+    "total": 31039
+  },
+  "aggregations": {
+    "access_status": {
+      "buckets": [
+        {
+          "key": "open",
+          "doc_count": 28375,
+          "label": "Open",
+          "is_selected": false
+        },
+        {
+          "key": "restricted",
+          "doc_count": 2508,
+          "label": "Restricted",
+          "is_selected": false
+        },
+        {
+          "key": "embargoed",
+          "doc_count": 156,
+          "label": "Embargoed",
+          "is_selected": false
+        }
+      ],
+      "label": "Access status"
+    },
+    "resource_type": {
+      "buckets": [
+        {
+          "key": "publication",
+          "doc_count": 13740,
+          "label": "Publication",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "publication-article",
+                "doc_count": 9670,
+                "label": "Journal article",
+                "is_selected": false
+              },
+              {
+                "key": "publication-taxonomictreatment",
+                "doc_count": 1251,
+                "label": "Taxonomic treatment",
+                "is_selected": false
+              },
+              {
+                "key": "publication-conferencepaper",
+                "doc_count": 503,
+                "label": "Conference paper",
+                "is_selected": false
+              },
+              {
+                "key": "publication-report",
+                "doc_count": 462,
+                "label": "Report",
+                "is_selected": false
+              },
+              {
+                "key": "publication-deliverable",
+                "doc_count": 443,
+                "label": "Project deliverable",
+                "is_selected": false
+              },
+              {
+                "key": "publication-thesis",
+                "doc_count": 139,
+                "label": "Thesis",
+                "is_selected": false
+              },
+              {
+                "key": "publication-section",
+                "doc_count": 124,
+                "label": "Book chapter",
+                "is_selected": false
+              },
+              {
+                "key": "publication-preprint",
+                "doc_count": 123,
+                "label": "Preprint",
+                "is_selected": false
+              },
+              {
+                "key": "publication-book",
+                "doc_count": 104,
+                "label": "Book",
+                "is_selected": false
+              },
+              {
+                "key": "publication-other",
+                "doc_count": 102,
+                "label": "Other",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "dataset",
+          "doc_count": 12952,
+          "label": "Dataset",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "software",
+          "doc_count": 1829,
+          "label": "Software",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "software-computationalnotebook",
+                "doc_count": 41,
+                "label": "Computational notebook",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "image",
+          "doc_count": 841,
+          "label": "Image",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "image-figure",
+                "doc_count": 810,
+                "label": "Figure",
+                "is_selected": false
+              },
+              {
+                "key": "image-diagram",
+                "doc_count": 7,
+                "label": "Diagram",
+                "is_selected": false
+              },
+              {
+                "key": "image-other",
+                "doc_count": 7,
+                "label": "Other",
+                "is_selected": false
+              },
+              {
+                "key": "image-plot",
+                "doc_count": 4,
+                "label": "Plot",
+                "is_selected": false
+              },
+              {
+                "key": "image-drawing",
+                "doc_count": 2,
+                "label": "Drawing",
+                "is_selected": false
+              },
+              {
+                "key": "image-photo",
+                "doc_count": 1,
+                "label": "Photo",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "presentation",
+          "doc_count": 608,
+          "label": "Presentation",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "other",
+          "doc_count": 502,
+          "label": "Other",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "poster",
+          "doc_count": 322,
+          "label": "Poster",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "video",
+          "doc_count": 84,
+          "label": "Video/Audio",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "model",
+          "doc_count": 64,
+          "label": "Model",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "lesson",
+          "doc_count": 56,
+          "label": "Lesson",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        }
+      ],
+      "label": "Resource types"
+    },
+    "subject": {
+      "buckets": [
+        {
+          "key": "Biodiversity",
+          "doc_count": 5185,
+          "label": "Biodiversity",
+          "is_selected": false
+        },
+        {
+          "key": "Taxonomy",
+          "doc_count": 4925,
+          "label": "Taxonomy",
+          "is_selected": false
+        },
+        {
+          "key": "Animalia",
+          "doc_count": 2980,
+          "label": "Animalia",
+          "is_selected": false
+        },
+        {
+          "key": "Arthropoda",
+          "doc_count": 1591,
+          "label": "Arthropoda",
+          "is_selected": false
+        },
+        {
+          "key": "Chordata",
+          "doc_count": 1093,
+          "label": "Chordata",
+          "is_selected": false
+        },
+        {
+          "key": "Insecta",
+          "doc_count": 1085,
+          "label": "Insecta",
+          "is_selected": false
+        },
+        {
+          "key": "climate change",
+          "doc_count": 823,
+          "label": "climate change",
+          "is_selected": false
+        },
+        {
+          "key": "Climate change",
+          "doc_count": 654,
+          "label": "Climate change",
+          "is_selected": false
+        },
+        {
+          "key": "International Ocean Discovery Program",
+          "doc_count": 528,
+          "label": "International Ocean Discovery Program",
+          "is_selected": false
+        },
+        {
+          "key": "climate",
+          "doc_count": 525,
+          "label": "climate",
+          "is_selected": false
+        }
+      ],
+      "label": "Subjects"
+    },
+    "file_type": {
+      "buckets": [
+        {
+          "key": "pdf",
+          "doc_count": 11385,
+          "label": "PDF",
+          "is_selected": false
+        },
+        {
+          "key": "zip",
+          "doc_count": 5307,
+          "label": "ZIP",
+          "is_selected": false
+        },
+        {
+          "key": "csv",
+          "doc_count": 3292,
+          "label": "CSV",
+          "is_selected": false
+        },
+        {
+          "key": "txt",
+          "doc_count": 3095,
+          "label": "TXT",
+          "is_selected": false
+        },
+        {
+          "key": "xlsx",
+          "doc_count": 2903,
+          "label": "XLSX",
+          "is_selected": false
+        },
+        {
+          "key": "html",
+          "doc_count": 1879,
+          "label": "HTML",
+          "is_selected": false
+        },
+        {
+          "key": "md",
+          "doc_count": 1209,
+          "label": "MD",
+          "is_selected": false
+        },
+        {
+          "key": "cdf",
+          "doc_count": 1140,
+          "label": "CDF",
+          "is_selected": false
+        },
+        {
+          "key": "r",
+          "doc_count": 1024,
+          "label": "R",
+          "is_selected": false
+        },
+        {
+          "key": "docx",
+          "doc_count": 888,
+          "label": "DOCX",
+          "is_selected": false
+        }
+      ],
+      "label": "File type"
+    }
+  },
+  "links": {
+    "self": "https://zenodo.org/api/records?page=1&q=climate%20AND%20data&size=20&sort=bestmatch",
+    "next": "https://zenodo.org/api/records?page=2&q=climate%20AND%20data&size=20&sort=bestmatch"
+  }
+}

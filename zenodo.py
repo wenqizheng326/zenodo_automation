@@ -6,16 +6,15 @@ A script to search Zenodo based on keywords and upload/download files.
 Usage: 
   - Search: python zenodo.py search keyword1 [keyword2 keyword3 ...]
   - Download: python zenodo.py download record_id [output_dir]
+  - Download by Keywords: python zenodo.py download-via-keywords keyword1 [keyword2 ...] [output_dir]
   - Upload: python zenodo.py upload filename [--title "Title"] [--description "Description"]
 
 Example: 
   python zenodo.py search climate
   python zenodo.py search "machine learning" biology
   python zenodo.py download 123456 ./downloads
+  python zenodo.py download-via-keywords climate data ./climate-downloads
   python zenodo.py upload dataset.zip --title "My Dataset"
-
-API token is loaded from a .env file containing:
-  ZENODO_ACCESS_TOKEN=your_token_here
 """
 
 import argparse
@@ -213,6 +212,80 @@ def download_zenodo_record(record_id: str, output_dir: Optional[str] = None, acc
         print(f"Saved to: {output_file}")
 
 
+def download_via_keywords(
+    keywords: List[str], 
+    output_dir: Optional[str] = None, 
+    access_token: Optional[str] = None,
+    max_records: int = 10,
+    page_size: int = 20,
+    sort: str = "bestmatch"
+) -> None:
+    """
+    Search for records matching keywords and download all files from those records.
+    
+    Args:
+        keywords: List of keywords to search for
+        output_dir: Directory to save files to (default: current directory)
+        access_token: Zenodo API access token
+        max_records: Maximum number of records to download
+        page_size: Number of results per page
+        sort: Sorting method (bestmatch, mostrecent)
+    """
+    # Set up the output directory
+    if output_dir:
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+    else:
+        output_path = Path.cwd()
+    
+    print(f"Searching Zenodo for: {' AND '.join(keywords)}")
+    
+    # Perform the search
+    results = search_zenodo(keywords, 1, page_size, sort, access_token)
+    
+    hits = results.get("hits", {}).get("hits", [])
+    total = results.get("hits", {}).get("total", 0)
+    
+    if isinstance(total, dict):  # Handle newer Zenodo API format
+        total = total.get("value", 0)
+    
+    if not hits:
+        print("No results found for your search query.")
+        return
+    
+    print(f"\nFound {total} results. Will download files from up to {max_records} records.\n")
+    
+    # Limit the number of records to download
+    records_to_download = min(len(hits), max_records)
+    
+    # Create a subdirectory for each record
+    for i, hit in enumerate(hits[:records_to_download], 1):
+        record_id = hit.get("id", "")
+        if not record_id:
+            continue
+        
+        # Create a directory for this record
+        record_title = hit.get("metadata", {}).get("title", f"record_{record_id}")
+        safe_title = "".join(c if c.isalnum() or c in "._- " else "_" for c in record_title)
+        safe_title = safe_title[:50]  # Limit directory name length
+        
+        record_dir = output_path / f"{i}_{safe_title}"
+        record_dir.mkdir(exist_ok=True)
+        
+        # Save record metadata
+        with open(record_dir / "metadata.json", "w", encoding="utf-8") as f:
+            json.dump(hit, f, indent=2, ensure_ascii=False)
+        
+        # Download all files for this record
+        try:
+            print(f"\nDownloading record {i}/{records_to_download}: {record_title}")
+            download_zenodo_record(record_id, str(record_dir), access_token)
+        except Exception as e:
+            print(f"Error downloading record {record_id}: {e}")
+    
+    print(f"\nDownload complete. Files saved to {output_path}")
+
+
 def upload_to_zenodo(
     file_path: str, 
     title: Optional[str] = None, 
@@ -355,6 +428,17 @@ def main():
     download_parser.add_argument("output_dir", nargs="?", help="Directory to save files to")
     download_parser.add_argument("--token", "-t", help="Zenodo API access token (overrides .env)")
     
+    # Download by keywords subcommand
+    download_keywords_parser = subparsers.add_parser("download-via-keywords", 
+                                                   help="Download files from records matching keywords")
+    download_keywords_parser.add_argument("keywords", nargs="+", help="One or more keywords to search for")
+    download_keywords_parser.add_argument("output_dir", nargs="?", help="Directory to save files to")
+    download_keywords_parser.add_argument("--max-records", type=int, default=10, 
+                                        help="Maximum number of records to download (default: 10)")
+    download_keywords_parser.add_argument("--sort", "-s", choices=["bestmatch", "mostrecent"], default="bestmatch", 
+                                        help="Sort order: 'bestmatch' or 'mostrecent'")
+    download_keywords_parser.add_argument("--token", "-t", help="Zenodo API access token (overrides .env)")
+    
     # Upload subcommand
     upload_parser = subparsers.add_parser("upload", help="Upload a file to Zenodo")
     upload_parser.add_argument("file_path", help="Path to the file to upload")
@@ -395,6 +479,17 @@ def main():
         elif args.command == "download":
             # Download files from the record
             download_zenodo_record(args.record_id, args.output_dir, access_token)
+            
+        elif args.command == "download-via-keywords":
+            # Download files from records matching keywords
+            download_via_keywords(
+                args.keywords, 
+                args.output_dir, 
+                access_token,
+                args.max_records,
+                20,  # page_size
+                args.sort
+            )
             
         elif args.command == "upload":
             # Parse keywords if provided
