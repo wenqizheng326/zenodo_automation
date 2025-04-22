@@ -379,7 +379,8 @@ def upload_to_zenodo(
             headers=headers
         )
     
-    if r.status_code != 200:
+    # FIX: Accept 201 status code as success for file upload
+    if r.status_code not in [200, 201]:
         raise Exception(f"Failed to upload file: {r.status_code} - {r.text}")
     
     print("File uploaded successfully!")
@@ -403,8 +404,8 @@ def upload_to_zenodo(
     else:
         draft_url = r.json()["links"]["html"]
         print(f"Deposition saved as draft. You can publish it manually.")
+        print(f"NOTE: Your upload will NOT be searchable until you publish it.")
         return draft_url
-
 
 def main():
     # Set up command line argument parsing
