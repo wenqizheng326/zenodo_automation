@@ -1,0 +1,122 @@
+id: https://w3id.org/oak/mapping-rules-datamodel
+title: Mapping Rules Datamodel
+name: mapping-rules-datamodel
+description: >-
+  A datamodel for specifying lexical mapping rules.
+  Rules consist of *preconditions* which are used to match elements to match on,
+  and *postconditions* which are used to generate new elements. Each rule can be assigned
+  a *weight*, these weights are summed and then a logit function applied to obtain
+  an SSSOM-compatible confidence score.
+license: https://creativecommons.org/publicdomain/zero/1.0/
+see_also:
+  - https://oboacademy.github.io/obook/tutorial/lexmatch-tutorial/
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+  mappingrules: https://w3id.org/oak/mapping-rules-datamodel/
+  skos: http://www.w3.org/2004/02/skos/core#
+  pav: http://purl.org/pav/
+  schema: http://schema.org/
+  sh: https://w3id.org/shacl/
+  prov: http://www.w3.org/ns/prov#
+
+default_prefix: mappingrules
+default_range: string
+
+default_curi_maps:
+  - semweb_context
+
+emit_prefixes:
+  - linkml
+  - rdf
+  - rdfs
+  - xsd
+  - owl
+
+imports:
+  - linkml:types
+  - lexical_index
+  - synonymizer_datamodel
+
+
+
+#==================================
+# Classes                         #
+#==================================
+classes:
+  MappingRuleCollection:
+    tree_root: true
+    description: A collection of mapping rules
+    attributes:
+      rules:
+        description: all rules
+        range: MappingRule
+        multivalued: true
+        inlined: true
+      minimum_confidence:
+        range: float
+
+  MappingRule:
+    description: An individual mapping rule, if preconditions match the postconditions are applied
+    attributes:
+      description:
+      oneway:
+        ifabsent: False
+        range: boolean
+        description: if true then subject and object can be switched and predicate inverted
+      preconditions:
+        range: Precondition
+        slot_uri: sh:condition
+        description: all of the criteria that must be true before a rule is fired
+      postconditions:
+        range: Postcondition
+        description: conditions that apply if preconditions match
+      synonymizer:
+        range: Synonymizer
+        description: Normalizing rules to labels. 
+
+  Precondition:
+    description: A pattern to be matched against an individual SSSOM mapping
+    attributes:
+      subject_source_one_of:
+        multivalued: true
+        description: The source of the subject to be matched.
+          Multiple values can be provided, it must match at least one.
+      object_source_one_of:
+        multivalued: true
+        description: The source of the object to be matched.
+          Multiple values can be provided, it must match at least one.
+      mapping_source_one_of:
+        multivalued: true
+        description: The source of the mapping to be matched.
+          Multiple values can be provided, it must match at least one.
+      subject_match_field_one_of:
+        multivalued: true
+        description: The field in the subject to be matched.
+          Multiple values can be provided, it must match at least one.
+      object_match_field_one_of:
+        multivalued: true
+        description: The field in the object to be matched.
+          Multiple values can be provided, it must match at least one.
+      transformations_included_in:
+        multivalued: true
+      predicate_id_one_of:
+        multivalued: true
+        description: The predicate to be matched. Multiple values can be provided, it must match at least one.
+
+  Postcondition:
+    attributes:
+      predicate_id:
+        description: The predicate that is inferred
+        comments:
+          - if the rule is invertible, then the predicate is inverted, e.g. skos broad becomes narrow
+      weight:
+        description: Weighting of the rule. A weight of zero corresponds to 0.5 confidence in the mapping.
+          Setting to +1 or -1 indicates moderate confidence or lack of confidence. A logit scale is used.
+          All weights are summed together to determine the final confidence.
+        range: float
+        see_also:
+          - https://en.wikipedia.org/wiki/Logit
+          - https://upload.wikimedia.org/wikipedia/commons/5/57/Logit.png
+
+     

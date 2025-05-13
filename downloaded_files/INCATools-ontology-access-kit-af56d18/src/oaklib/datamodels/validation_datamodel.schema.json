@@ -1,0 +1,302 @@
+{
+    "$defs": {
+        "ConstraintComponent": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "ConstraintComponent",
+            "type": "object"
+        },
+        "ExternalReferenceValidationResult": {
+            "additionalProperties": false,
+            "description": "A validation result where the check is to determine if a link to an external resource is still valid",
+            "properties": {
+                "http_response_code": {
+                    "type": "integer"
+                },
+                "info": {
+                    "description": "additional information about the issue",
+                    "type": "string"
+                },
+                "instantiates": {
+                    "description": "The type of the subject",
+                    "type": "string"
+                },
+                "number_of_attempts": {
+                    "type": "integer"
+                },
+                "object": {
+                    "type": "string"
+                },
+                "object_str": {
+                    "type": "string"
+                },
+                "predicate": {
+                    "description": "The predicate or property of the subject which the result is about",
+                    "type": "string"
+                },
+                "severity": {
+                    "$ref": "#/$defs/SeverityOptions",
+                    "description": "the severity of the issue"
+                },
+                "source": {
+                    "type": "string"
+                },
+                "subject": {
+                    "description": "The instance which the result is about",
+                    "type": "string"
+                },
+                "time_checked": {
+                    "type": "string"
+                },
+                "type": {
+                    "description": "The type of validation result. SHACL validation vocabulary is recommended for checks against a datamodel. For principle checks use the corresponding rule or principle, e.g. GO RULE ID, OBO Principle ID",
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "type",
+                "subject"
+            ],
+            "title": "ExternalReferenceValidationResult",
+            "type": "object"
+        },
+        "NamedResource": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "NamedResource",
+            "type": "object"
+        },
+        "Node": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "Node",
+            "type": "object"
+        },
+        "RepairConfiguration": {
+            "additionalProperties": false,
+            "description": "Configuration parameters for execution of validation repairs",
+            "properties": {
+                "dry_run": {
+                    "type": "boolean"
+                },
+                "validation_configuration": {
+                    "$ref": "#/$defs/ValidationConfiguration",
+                    "description": "repair configurations include validation configurations"
+                }
+            },
+            "title": "RepairConfiguration",
+            "type": "object"
+        },
+        "RepairOperation": {
+            "additionalProperties": false,
+            "description": "The result of performing an individual repair",
+            "properties": {
+                "info": {
+                    "type": "string"
+                },
+                "modified": {
+                    "type": "boolean"
+                },
+                "repairs": {
+                    "$ref": "#/$defs/ValidationResult"
+                },
+                "successful": {
+                    "type": "boolean"
+                }
+            },
+            "title": "RepairOperation",
+            "type": "object"
+        },
+        "RepairReport": {
+            "additionalProperties": false,
+            "description": "A report that consists of repair operation results",
+            "properties": {
+                "results": {
+                    "description": "collection of results",
+                    "items": {
+                        "$ref": "#/$defs/RepairOperation"
+                    },
+                    "type": "array"
+                }
+            },
+            "title": "RepairReport",
+            "type": "object"
+        },
+        "SeverityOptions": {
+            "description": "",
+            "enum": [
+                "FATAL",
+                "ERROR",
+                "WARNING",
+                "INFO"
+            ],
+            "title": "SeverityOptions",
+            "type": "string"
+        },
+        "TypeSeverityKeyValue": {
+            "additionalProperties": false,
+            "description": "key-value pair that maps a validation result type to a severity setting, for overriding default severity",
+            "properties": {
+                "severity": {
+                    "$ref": "#/$defs/SeverityOptions"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "type"
+            ],
+            "title": "TypeSeverityKeyValue",
+            "type": "object"
+        },
+        "TypeSeverityKeyValue__identifier_optional": {
+            "additionalProperties": false,
+            "description": "key-value pair that maps a validation result type to a severity setting, for overriding default severity",
+            "properties": {
+                "severity": {
+                    "$ref": "#/$defs/SeverityOptions"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [],
+            "title": "TypeSeverityKeyValue",
+            "type": "object"
+        },
+        "ValidationConfiguration": {
+            "additionalProperties": false,
+            "description": "Configuration parameters for execution of a validation report",
+            "properties": {
+                "max_number_results_per_type": {
+                    "description": "if set then truncate results such that no more than this number of results are reported per type",
+                    "type": "integer"
+                },
+                "schema_path": {
+                    "description": "allows overriding the default OMO schema",
+                    "type": "string"
+                },
+                "type_severity_map": {
+                    "additionalProperties": {
+                        "$ref": "#/$defs/TypeSeverityKeyValue__identifier_optional"
+                    },
+                    "description": "Allows overriding of severity of a particular type",
+                    "type": "object"
+                }
+            },
+            "title": "ValidationConfiguration",
+            "type": "object"
+        },
+        "ValidationReport": {
+            "additionalProperties": false,
+            "description": "A report that consists of validation results",
+            "properties": {
+                "results": {
+                    "description": "collection of results",
+                    "items": {
+                        "$ref": "#/$defs/ValidationResult"
+                    },
+                    "type": "array"
+                }
+            },
+            "title": "ValidationReport",
+            "type": "object"
+        },
+        "ValidationResult": {
+            "additionalProperties": false,
+            "description": "An individual result arising from validation of a data instance using a particular rule",
+            "properties": {
+                "info": {
+                    "description": "additional information about the issue",
+                    "type": "string"
+                },
+                "instantiates": {
+                    "description": "The type of the subject",
+                    "type": "string"
+                },
+                "object": {
+                    "type": "string"
+                },
+                "object_str": {
+                    "type": "string"
+                },
+                "predicate": {
+                    "description": "The predicate or property of the subject which the result is about",
+                    "type": "string"
+                },
+                "severity": {
+                    "$ref": "#/$defs/SeverityOptions",
+                    "description": "the severity of the issue"
+                },
+                "source": {
+                    "type": "string"
+                },
+                "subject": {
+                    "description": "The instance which the result is about",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "The type of validation result. SHACL validation vocabulary is recommended for checks against a datamodel. For principle checks use the corresponding rule or principle, e.g. GO RULE ID, OBO Principle ID",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "type",
+                "subject"
+            ],
+            "title": "ValidationResult",
+            "type": "object"
+        },
+        "ValidationResultType": {
+            "description": "",
+            "enum": [
+                "DatatypeConstraintComponent",
+                "MinCountConstraintComponent",
+                "MaxCountConstraintComponent",
+                "DeprecatedPropertyComponent",
+                "MaxLengthConstraintComponent",
+                "MinLengthConstraintComponent",
+                "PatternConstraintComponent",
+                "ClosedConstraintComponent",
+                "RuleConstraintComponent"
+            ],
+            "title": "ValidationResultType",
+            "type": "string"
+        }
+    },
+    "$id": "https://w3id.org/linkml/validation_results",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "additionalProperties": true,
+    "metamodel_version": "1.7.0",
+    "title": "validaton-results",
+    "type": "object",
+    "version": null
+}

@@ -1,0 +1,424 @@
+@prefix IAO: <http://purl.obolibrary.org/obo/IAO_> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix linkml: <https://w3id.org/linkml/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xodiff: <https://w3id.org/oak/cross-ontology-diff/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/oak/cross-ontology-diff.owl.ttl> a owl:Ontology ;
+    rdfs:label "cross-ontology-diff" ;
+    IAO:0000700 xodiff:RelationalDiff,
+        xodiff:StructureDiffResultSet ;
+    dcterms:license "https://creativecommons.org/publicdomain/zero/1.0/" ;
+    dcterms:title "Cross-Ontology Diff" ;
+    linkml:generation_date "2023-02-27T09:54:56" ;
+    linkml:metamodel_version "1.7.0" ;
+    linkml:source_file "cross_ontology_diff.yaml" ;
+    linkml:source_file_date "2023-02-27T09:50:05" ;
+    linkml:source_file_size 10687 .
+
+xodiff:StructureDiffResultSet a owl:Class ;
+    rdfs:label "StructureDiffResultSet" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:right_source ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:left_source ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom xodiff:RelationalDiff ;
+            owl:onProperty xodiff:results ] ;
+    skos:definition "A collection of relational diff results" .
+
+xodiff:category a owl:ObjectProperty ;
+    rdfs:label "category" ;
+    rdfs:range xodiff:DiffCategory ;
+    skos:definition "Each match (or lack of match) is placed into exactly one category" .
+
+xodiff:left_object_id a owl:DatatypeProperty ;
+    rdfs:label "left_object_id" ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:object,
+        xodiff:left_side ;
+    skos:definition "The object (parent) of the source/left edge" .
+
+xodiff:left_object_is_functional a owl:DatatypeProperty ;
+    rdfs:label "left_object_is_functional" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf xodiff:is_functional,
+        xodiff:left_side ;
+    skos:definition "True if an object mapping is present, and maps uniquely within the same ontology" .
+
+xodiff:left_object_label a owl:DatatypeProperty ;
+    rdfs:label "left_object_label" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf rdf:object,
+        rdfs:label,
+        xodiff:left_side ;
+    skos:definition "The name of the object (parent) of the source/left edge" .
+
+xodiff:left_predicate_id a owl:DatatypeProperty ;
+    rdfs:label "left_predicate_id" ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:predicate,
+        xodiff:left_side ;
+    skos:definition "The predicate (relation) of the source/left edge" .
+
+xodiff:left_predicate_label a owl:DatatypeProperty ;
+    rdfs:label "left_predicate_label" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf rdf:predicate,
+        rdfs:label,
+        xodiff:left_side ;
+    skos:definition "The name of the predicate of the source/left edge" .
+
+xodiff:left_source a owl:DatatypeProperty ;
+    rdfs:label "left_source" ;
+    rdfs:range xsd:string ;
+    skos:definition "Ontology source for left entities" .
+
+xodiff:left_subject_id a owl:DatatypeProperty ;
+    rdfs:label "left_subject_id" ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:subject,
+        xodiff:left_side ;
+    skos:definition "The subject (child) of the source/left edge" .
+
+xodiff:left_subject_is_functional a owl:DatatypeProperty ;
+    rdfs:label "left_subject_is_functional" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf xodiff:is_functional,
+        xodiff:left_side ;
+    skos:definition "True if a subject mapping is present, and maps uniquely within the same ontology" .
+
+xodiff:left_subject_label a owl:DatatypeProperty ;
+    rdfs:label "left_subject_label" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf rdf:subject,
+        rdfs:label,
+        xodiff:left_side ;
+    skos:definition "The name of the subject (child) of the source/left edge" .
+
+xodiff:object_mapping_cardinality a owl:ObjectProperty ;
+    rdfs:label "object_mapping_cardinality" ;
+    rdfs:range xodiff:MappingCardinalityEnum ;
+    skos:definition "The mapping cardinality of the object pair" .
+
+xodiff:object_mapping_predicate a owl:DatatypeProperty ;
+    rdfs:label "object_mapping_predicate" ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:predicate,
+        rdf:subject ;
+    skos:definition "The mapping predicate that holds between left_object_id and right_object_id" .
+
+xodiff:results a owl:ObjectProperty ;
+    rdfs:label "results" ;
+    rdfs:range xodiff:RelationalDiff ;
+    skos:definition "all differences between a pair of ontologies" .
+
+xodiff:right_intermediate_ids a owl:DatatypeProperty ;
+    rdfs:label "right_intermediate_ids" ;
+    rdfs:range rdfs:Resource .
+
+xodiff:right_object_id a owl:DatatypeProperty ;
+    rdfs:label "right_object_id" ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:object,
+        xodiff:right_side ;
+    skos:definition "The object (parent) of the matched/right edge, if matchable" .
+
+xodiff:right_object_label a owl:DatatypeProperty ;
+    rdfs:label "right_object_label" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf rdf:object,
+        rdfs:label,
+        xodiff:right_side ;
+    skos:definition "The name of the object (parent) of the matched/right edge, if matchable" .
+
+xodiff:right_predicate_ids a owl:DatatypeProperty ;
+    rdfs:label "right_predicate_ids" ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:predicate,
+        xodiff:right_side ;
+    skos:definition """* If the match type is consistent, then all consistent predicates.
+* If the match type is identical, then the identical predicate.
+* If the match type is OtherRelationship, then all predicates that form a path between right subject and object""" .
+
+xodiff:right_predicate_labels a owl:DatatypeProperty ;
+    rdfs:label "right_predicate_labels" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf rdf:predicate,
+        rdfs:label,
+        xodiff:right_side ;
+    skos:definition "The names corresponding to the right_predicate_ids" .
+
+xodiff:right_source a owl:DatatypeProperty ;
+    rdfs:label "right_source" ;
+    rdfs:range xsd:string ;
+    skos:definition "Ontology source for right entities" .
+
+xodiff:right_subject_id a owl:DatatypeProperty ;
+    rdfs:label "right_subject_id" ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:subject,
+        xodiff:right_side ;
+    skos:definition "The subject (child) of the matched/right edge, if matchable" .
+
+xodiff:right_subject_label a owl:DatatypeProperty ;
+    rdfs:label "right_subject_label" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf rdf:subject,
+        rdfs:label,
+        xodiff:right_side ;
+    skos:definition "The name of the subject (child) of the matched/right edge, if matchable" .
+
+xodiff:subject_mapping_cardinality a owl:ObjectProperty ;
+    rdfs:label "subject_mapping_cardinality" ;
+    rdfs:range xodiff:MappingCardinalityEnum ;
+    skos:definition "The mapping cardinality of the subject pair" .
+
+xodiff:subject_mapping_predicate a owl:DatatypeProperty ;
+    rdfs:label "subject_mapping_predicate" ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:predicate,
+        rdf:subject ;
+    skos:definition "The mapping predicate that holds between left_subject_id and right_subject_id" .
+
+xodiff:DiffCategory a owl:Class ;
+    rdfs:label "DiffCategory" ;
+    owl:unionOf ( <https://w3id.org/oak/cross-ontology-diff/DiffCategory#Identical> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#MoreSpecificPredicateOnRight> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#LessSpecificPredicateOnRight> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#LeftEntailedByRight> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#RightEntailedByLeft> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#IndirectFormOfEdgeOnRight> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#RightNodesAreIdentical> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#NonEntailedRelationship> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#NoRelationship> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingMapping> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingSubjectMapping> <https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingObjectMapping> ) ;
+    linkml:permissible_values <https://w3id.org/oak/cross-ontology-diff/DiffCategory#Identical>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#IndirectFormOfEdgeOnRight>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#LeftEntailedByRight>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#LessSpecificPredicateOnRight>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingMapping>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingObjectMapping>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingSubjectMapping>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#MoreSpecificPredicateOnRight>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#NoRelationship>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#NonEntailedRelationship>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#RightEntailedByLeft>,
+        <https://w3id.org/oak/cross-ontology-diff/DiffCategory#RightNodesAreIdentical> .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#Identical> a owl:Class ;
+    rdfs:label "Identical" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#IndirectFormOfEdgeOnRight> a owl:Class ;
+    rdfs:label "IndirectFormOfEdgeOnRight" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#LeftEntailedByRight> a owl:Class ;
+    rdfs:label "LeftEntailedByRight" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#LessSpecificPredicateOnRight> a owl:Class ;
+    rdfs:label "LessSpecificPredicateOnRight" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingMapping> a owl:Class ;
+    rdfs:label "MissingMapping" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingObjectMapping> a owl:Class ;
+    rdfs:label "MissingObjectMapping" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#MissingSubjectMapping> a owl:Class ;
+    rdfs:label "MissingSubjectMapping" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#MoreSpecificPredicateOnRight> a owl:Class ;
+    rdfs:label "MoreSpecificPredicateOnRight" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#NoRelationship> a owl:Class ;
+    rdfs:label "NoRelationship" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#NonEntailedRelationship> a owl:Class ;
+    rdfs:label "NonEntailedRelationship" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#RightEntailedByLeft> a owl:Class ;
+    rdfs:label "RightEntailedByLeft" .
+
+<https://w3id.org/oak/cross-ontology-diff/DiffCategory#RightNodesAreIdentical> a owl:Class ;
+    rdfs:label "RightNodesAreIdentical" .
+
+<https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#0:1> a owl:Class ;
+    rdfs:label "0:1" .
+
+<https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:0> a owl:Class ;
+    rdfs:label "1:0" .
+
+<https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:1> a owl:Class ;
+    rdfs:label "1:1" .
+
+<https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:n> a owl:Class ;
+    rdfs:label "1:n" .
+
+<https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#n:1> a owl:Class ;
+    rdfs:label "n:1" .
+
+<https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#n:n> a owl:Class ;
+    rdfs:label "n:n" .
+
+xodiff:is_functional a owl:DatatypeProperty ;
+    rdfs:label "is_functional" ;
+    rdfs:range xsd:boolean ;
+    skos:definition "Maps to exactly one thing" .
+
+xodiff:side a owl:DatatypeProperty ;
+    rdfs:label "side" ;
+    rdfs:range xsd:string ;
+    skos:definition "left or right side" .
+
+xodiff:RelationalDiff a owl:Class ;
+    rdfs:label "RelationalDiff" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange rdfs:Resource ;
+            owl:onProperty xodiff:right_object_id ],
+        [ a owl:Restriction ;
+            owl:onDataRange rdfs:Resource ;
+            owl:onProperty xodiff:left_subject_id ;
+            owl:qualifiedCardinality 1 ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:left_object_label ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:left_object_is_functional ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:left_subject_is_functional ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange rdfs:Resource ;
+            owl:onProperty xodiff:right_subject_id ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass xodiff:DiffCategory ;
+            owl:onProperty xodiff:category ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass xodiff:MappingCardinalityEnum ;
+            owl:onProperty xodiff:subject_mapping_cardinality ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass xodiff:MappingCardinalityEnum ;
+            owl:onProperty xodiff:object_mapping_cardinality ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom rdfs:Resource ;
+            owl:onProperty xodiff:right_intermediate_ids ],
+        [ a owl:Restriction ;
+            owl:onDataRange rdfs:Resource ;
+            owl:onProperty xodiff:left_object_id ;
+            owl:qualifiedCardinality 1 ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom xsd:string ;
+            owl:onProperty xodiff:right_predicate_labels ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange rdfs:Resource ;
+            owl:onProperty xodiff:subject_mapping_predicate ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:right_subject_label ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange rdfs:Resource ;
+            owl:onProperty xodiff:object_mapping_predicate ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:right_object_label ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:left_predicate_label ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty xodiff:left_subject_label ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom rdfs:Resource ;
+            owl:onProperty xodiff:right_predicate_ids ],
+        [ a owl:Restriction ;
+            owl:onDataRange rdfs:Resource ;
+            owl:onProperty xodiff:left_predicate_id ;
+            owl:qualifiedCardinality 1 ] ;
+    skos:definition """A relational diff expresses the difference between an edge in one ontology, and an edge (or lack of edge) in
+another ontology (or a different version of the same ontology). The diff is from the perspective of one
+ontology (the one on the "left" side).
+
+For every edge in the left ontology, the subject and object are mapped to the right ontology.
+If mappings cannot be found then the diff is categorized as missing mappings.
+The predicate is also mapped, with the reflexivity assumption.
+
+for every mapped subject and object pair (the "right" subject and object), the entailed relationship
+is examined to determine if it consistent with the left predicate.
+
+```
+left_object    <--- mapped to ---> right_object
+   ^                                  ^
+   |                                  |
+   |                                  |
+   | left                             | right
+   | predicate                        | predicate
+   |                                  |
+   |                                  |
+left_subject   <--- mapped to ---> right_subject
+```
+
+The above figure gives hows the basic structure. Classification of the edge is done from the perspective
+of the left edge.""" .
+
+xodiff:MappingCardinalityEnum a owl:Class ;
+    rdfs:label "MappingCardinalityEnum" ;
+    owl:unionOf ( <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:1> <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:n> <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#n:1> <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:0> <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#0:1> <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#n:n> ) ;
+    linkml:permissible_values <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#0:1>,
+        <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:0>,
+        <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:1>,
+        <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#1:n>,
+        <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#n:1>,
+        <https://w3id.org/oak/cross-ontology-diff/MappingCardinalityEnum#n:n> .
+
+rdf:object a owl:DatatypeProperty ;
+    rdfs:label "object" ;
+    rdfs:range xsd:string ;
+    skos:definition "The object node on left or right side" ;
+    skos:exactMatch rdf:object .
+
+xodiff:right_side a owl:DatatypeProperty ;
+    rdfs:label "right_side" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf xodiff:side ;
+    skos:definition "The second ontology is arbitrarily designated the right side" .
+
+rdf:predicate a owl:DatatypeProperty ;
+    rdfs:label "predicate" ;
+    rdfs:range xsd:string ;
+    skos:definition "The relationship type between subject and object on left or right side" ;
+    skos:exactMatch rdf:predicate .
+
+rdf:subject a owl:DatatypeProperty ;
+    rdfs:label "subject" ;
+    rdfs:range xsd:string ;
+    skos:definition "The child node on left or right side" ;
+    skos:exactMatch rdf:subject .
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" ;
+    rdfs:range xsd:string ;
+    skos:definition "human readable label" ;
+    skos:exactMatch rdfs:label .
+
+xodiff:left_side a owl:DatatypeProperty ;
+    rdfs:label "left_side" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf xodiff:side ;
+    skos:definition "The first ontology is arbitrarily designated the left side" .
+
+
+

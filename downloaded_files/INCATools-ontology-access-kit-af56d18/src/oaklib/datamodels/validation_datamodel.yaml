@@ -1,0 +1,310 @@
+id: https://w3id.org/linkml/validation_results
+title: Validation Results Data Model
+name: validaton-results
+description: |-
+  A datamodel for data validation results.
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+  vm: https://w3id.org/linkml/validation-model/
+  skos: http://www.w3.org/2004/02/skos/core#
+  pav: http://purl.org/pav/
+  schema: http://schema.org/
+  sh: http://www.w3.org/ns/shacl#
+
+default_prefix: vm
+default_range: string
+
+default_curi_maps:
+  - semweb_context
+
+emit_prefixes:
+  - linkml
+  - rdf
+  - rdfs
+  - xsd
+  - owl
+
+imports:
+  - linkml:types
+
+#==================================
+# Classes                         #
+#==================================
+classes:
+
+  NamedResource:
+    attributes:
+      id:
+        range: uriorcurie
+        identifier: true
+
+  ConstraintComponent:
+    is_a: NamedResource
+
+  Node:
+    is_a: NamedResource
+
+  ValidationConfiguration:
+    description: Configuration parameters for execution of a validation report
+    attributes:
+      max_number_results_per_type:
+        range: integer
+        description: if set then truncate results such that no more than this number of results are reported per type
+      type_severity_map:
+        description: Allows overriding of severity of a particular type
+        range: TypeSeverityKeyValue
+        inlined: true
+        multivalued: true
+      schema_path:
+        range: string
+        description: allows overriding the default OMO schema
+      lookup_references:
+        range: boolean
+        description: if true, then look up references used as provenance (axiom annotation).
+          This may include looking up the PMID and checking if a publication is retracted.
+      prompt_info:
+        range: string
+        description: for AI agents, this allows passing through of additional info to the prompt
+      documentation_objects:
+        range: string
+        multivalued: true
+        description: paths or URLs to files containing best practice documentation, SOPs, etc. Primarily for AI
+          agents to read when performing validation.
+
+  RepairConfiguration:
+    description: Configuration parameters for execution of validation repairs
+    attributes:
+      validation_configuration:
+        description: repair configurations include validation configurations
+        range: ValidationConfiguration
+      dry_run:
+        range: boolean
+
+
+  TypeSeverityKeyValue:
+    description: key-value pair that maps a validation result type to a severity setting, for overriding default severity
+    conforms_to: wikidata:Q4818718
+    attributes:
+      type:
+        key: true
+        range: uriorcurie
+      severity:
+        range: severity_options
+
+  Report:
+    abstract: true
+    description: A report object that is a holder to multiple report results
+    slots:
+      - results
+
+  ValidationReport:
+    is_a: Report
+    class_uri: sh:ValidationReport
+    description: A report that consists of validation results
+    slot_usage:
+      results:
+        range: ValidationResult
+    todos:
+      - add prov object
+
+  RepairReport:
+    is_a: Report
+    description: A report that consists of repair operation results
+    slot_usage:
+      results:
+        range: RepairOperation
+
+  Result:
+    abstract: true
+    description: Abstract base class for any individual report result
+
+  ValidationResult:
+    is_a: Result
+    class_uri: sh:ValidationResult
+    description: An individual result arising from validation of a data instance using a particular rule
+    slots:
+      - type
+      - severity
+      - subject
+      - instantiates
+      - predicate
+      - object
+      - object_str
+      - source
+      - info
+
+  DefinitionValidationResult:
+    is_a: ValidationResult
+    attributes:
+      definition:
+        range: string
+      definition_source:
+        range: string
+      proposed_new_definition:
+        range: string
+
+  MappingValidationResult:
+    is_a: Result
+    description: A validation result where the check is to determine if a mapping is correct
+    attributes:
+      subject_id:
+        range: string
+      subject_info:
+        range: string
+      object_id:
+        range: string
+      object_info:
+        range: string
+      predicate_id:
+        range: string
+      category:
+        range: string
+        description: The category of the validation issue
+      problem:
+        range: boolean
+      info:
+        range: string
+      confidence:
+        range: float
+      suggested_predicate:
+        range: string
+      suggested_modifications:
+        range: string
+
+
+  RepairOperation:
+    is_a: Result
+    description: The result of performing an individual repair
+    todos:
+      - integrate with kgcl data model, to be able to describe changes
+    attributes:
+      repairs:
+        range: ValidationResult
+      modified:
+        range: boolean
+      successful:
+        range: boolean
+      info:
+        range: string
+
+  ExternalReferenceValidationResult:
+    is_a: ValidationResult
+    description: A validation result where the check is to determine if a link to an external resource is still valid
+    attributes:
+      url:
+      time_checked:
+      number_of_attempts:
+        range: integer
+      http_response_code:
+        range: integer
+
+#==================================
+# Slots                           #
+#==================================
+slots:
+  type:
+    range: ConstraintComponent
+    slot_uri: sh:sourceConstraintComponent
+    description: >-
+      The type of validation result. SHACL validation vocabulary is recommended for checks against a datamodel.
+      For principle checks use the corresponding rule or principle, e.g. GO RULE ID, OBO Principle ID
+    required: true
+  subject:
+    description: The instance which the result is about
+    range: Node
+    slot_uri: sh:focusNode
+    required: true
+  instantiates:
+    description: The type of the subject
+    range: Node
+    exact_mappings:
+      - sh:sourceShape
+  predicate:
+    description: The predicate or property of the subject which the result is about
+    range: Node
+    related_mappings:
+      - sh:resultPath
+  object:
+    range: Node
+    slot_uri: sh:value
+  object_str:
+    range: string
+  source:
+    range: string
+  severity:
+    description: the severity of the issue
+    range: severity_options
+    slot_uri: sh:resultSeverity
+  info:
+    description: additional information about the issue
+    range: string
+    slot_uri: sh:resultMessage
+  results:
+    description: collection of results
+    slot_uri: sh:result
+    range: Result
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+
+#==================================
+# Enumerations                    #
+#==================================
+enums:
+  severity_options:
+    exact_mappings:
+      - sh:Severity
+    permissible_values:
+      FATAL:
+      ERROR:
+        meaning: sh:Violation
+      WARNING:
+        meaning: sh:Warning
+      INFO:
+        meaning: sh:Info
+
+  ValidationResultType:
+    # sh:sourceConstraintComponent
+    permissible_values:
+      DatatypeConstraintComponent:
+        meaning: sh:DatatypeConstraintComponent
+        description: constraint in which the range is a type, and the slot value must conform to the type
+        annotations:
+          element: linkml:range
+      MinCountConstraintComponent:
+        meaning: sh:MinCountConstraintComponent
+        description: cardinality constraint where the slot value must be greater or equal to a specified minimum
+        annotations:
+          element: linkml:minimum_value
+      MaxCountConstraintComponent:
+        meaning: sh:MaxCountConstraintComponent
+        description: cardinality constraint where the slot value must be less than or equal to a specified maximum
+        annotations:
+          element: linkml:maximum_value
+      DeprecatedPropertyComponent:
+        meaning: vm:DeprecatedPropertyComponent
+        description: constraint where the instance slot should not be deprecated
+        annotations:
+          element: linkml:deprecated
+      MaxLengthConstraintComponent:
+        meaning: sh:MaxLengthConstraintComponent
+        description: constraint where the slot value must have a length equal to or less than a specified maximum
+      MinLengthConstraintComponent:
+        meaning: sh:MinLengthConstraintComponent
+        description: constraint where the slot value must have a length equal to or less than a specified maximum
+      PatternConstraintComponent:
+        meaning: sh:PatternConstraintComponent
+        description: constraint where the slot value must match a given regular expression pattern
+        annotations:
+          element: linkml:pattern
+      ClosedConstraintComponent:
+        meaning: sh:ClosedConstraintComponent
+        description: constraint where the slot value must be allowable for the type of an instance
+        annotations:
+          element: linkml:attributes
+      RuleConstraintComponent:
+        description: constraint where the structure of an object must conform to a specified rule
+
+
